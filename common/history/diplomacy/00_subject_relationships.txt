@@ -524,7 +524,7 @@
 	c:SPA = {
 		create_diplomatic_pact = {
 			country = c:MOR
-			type = protectorate
+			type = puppet
 		}
 	}
 	c:MOR = {
@@ -542,7 +542,7 @@
 	c:SPA = {
 		create_diplomatic_pact = {
 			country = c:ALD
-			type = protectorate
+			type = puppet
 		}
 	}
 	c:ALD = {

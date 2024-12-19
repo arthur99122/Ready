@@ -5608,7 +5608,6 @@ zulu_standard_of_living_modifier_negative = {
 French_victory_over_rheinland_coalition = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	unit_kill_rate_add = 0.1
-	country_construction_add = 5000
 	country_prestige_add = 50
 	state_assimilation_mult = 0.1
 }
@@ -5621,4 +5620,8 @@ Dirty_fix ={
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_bureaucracy_add = 1500
 
+}
+Starting_Buff_1 = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_construction_add = 50
 }
