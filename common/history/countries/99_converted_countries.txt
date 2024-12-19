@@ -10170,7 +10170,7 @@
 		}
 		set_institution_investment_level = {
 			institution = institution_schools
-			level = 1
+			level = 3
 		}
 		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
 			name = French_victory_over_rheinland_coalition # the modifier you want
@@ -10182,6 +10182,11 @@
 			name = Starting_Buff # the modifier you want
     			is_decaying = no # Optional, if yes, it will decay, default is no
     			months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Dirty_fix # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+    			months = 24 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:X19 = {
