@@ -100,24 +100,6 @@
 	}
 	c:X16 = {
 		create_diplomatic_pact = {
-			country = c:NET
-			type = puppet
-		}
-	}
-	c:NET = {
-		add_liberty_desire = -26.3
-	}
-	c:X16 = {
-		create_diplomatic_pact = {
-			country = c:IRE
-			type = puppet
-		}
-	}
-	c:IRE = {
-		add_liberty_desire = -50
-	}
-	c:X16 = {
-		create_diplomatic_pact = {
 			country = c:SCO
 			type = puppet
 		}
