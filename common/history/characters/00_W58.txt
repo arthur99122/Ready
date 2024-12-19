@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W58 = {
+		create_character = {
+			first_name = "Abdullah_Mukarram_Sh0h_I"
+			last_name = "Pattani"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:orthodox
+			birth_date = 1818.2.7
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

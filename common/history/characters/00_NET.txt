@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:NET = {
+		create_character = {
+			first_name = "Willem_I"
+			last_name = "van_Grimberghe"
+			ruler = yes
+			culture = cu:dutch
+			religion = rel:orthodox
+			birth_date = 1817.1.2
+			traits = {
+				imperious 
+			}
+		}
+
+	}
+}

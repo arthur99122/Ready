@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:TUN = {
+		create_character = {
+			first_name = "Husayn_I"
+			last_name = "Muradid"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:orthodox
+			birth_date = 1815.1.2
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

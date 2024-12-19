@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:NNG = {
+		create_character = {
+			first_name = "Kalti_Kalti"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1793.2.12
+			traits = {
+				hedonist 
+			}
+		}
+
+	}
+}

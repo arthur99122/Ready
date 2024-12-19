@@ -1,0 +1,211 @@
+﻿## NATIVES ##
+zzz_advanced_native_expansion = {
+	is_shown = {
+	    NOT = { is_country_type = decentralized }
+		OR = {
+			AND = {
+				# Only visible to native americans
+				cu:iroquoian = { shares_heritage_trait_with_any_primary_culture = ROOT }
+				any_scope_state = {
+					any_neighbouring_state = {
+						OR = {
+							state_region = s:STATE_ALASKA
+							zzz_converter_state_is_in_canada = yes
+						}
+						owner = {
+							NOT = { has_truce_with = ROOT }
+							NOT = { has_war_with = ROOT }
+							is_country_type = decentralized
+						}
+					}
+				}
+			}
+			AND = {
+				# Only visible to australian aboriginals
+				cu:aborigine = { shares_non_heritage_trait_with_any_primary_culture = ROOT }
+				any_scope_state = {
+					any_neighbouring_state = {
+						zzz_converter_state_is_in_australia = yes
+						owner = {
+							NOT = { has_truce_with = ROOT }
+							NOT = { has_war_with = ROOT }
+							is_country_type = decentralized
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	possible = {
+		has_technology_researched = colonization
+		has_technology_researched = railways
+		is_at_war = no
+		is_diplomatic_play_committed_participant = no
+		custom_tooltip = {
+			text = zzz_advanced_native_expansion.tt2
+			NOT = { has_variable = zzz_advanced_native_expansion_recently_had_war }
+		}
+	}
+
+	when_taken = {
+		custom_tooltip = zzz_advanced_native_expansion.tt
+		random_scope_state = {
+			limit = {
+				any_neighbouring_state = {
+					OR = {
+						state_region = s:STATE_ALASKA
+						zzz_converter_state_is_in_canada = yes
+						zzz_converter_state_is_in_australia = yes
+					}
+					owner = {
+						NOT = { has_truce_with = ROOT }
+						NOT = { has_war_with = ROOT }
+						is_country_type = decentralized
+					}
+				}
+			}
+			random_neighbouring_state = {
+				limit = {
+					OR = {
+						state_region = s:STATE_ALASKA
+						zzz_converter_state_is_in_canada = yes
+						zzz_converter_state_is_in_australia = yes
+					}
+					owner = {
+						NOT = { has_truce_with = ROOT }
+						NOT = { has_war_with = ROOT }
+						is_country_type = decentralized
+					}
+				}
+				hidden_effect = {
+					owner = { save_temporary_scope_as = defending_tribe_scope }
+					ROOT = {
+						create_diplomatic_play = {
+							target_country = scope:defending_tribe_scope
+							type = dp_annex_war #To be changed to some version of conquer_state as soon as you can do so against a decentralized nation
+						}
+						set_variable = {
+				            name = zzz_advanced_native_expansion_recently_had_war
+				            value = yes
+				        }
+						trigger_event = { id = zzz_cc_canada.5 years = 3 }
+					}
+				}
+			}
+		}
+	}
+
+	ai_chance = {
+		base = 30
+		modifier = {
+			is_diplomatic_play_undecided_participant = yes
+			add = -1000
+		}
+	}
+}
+zzz_SWABIA_expansion = {
+	is_shown = {
+		exists = c:V39
+		this = c:V39
+		hidden_trigger = {
+				NOT = { has_variable = SWABIA_EXPANSION_TAKEN }
+		}
+
+		
+	}
+	
+	possible = {
+		has_technology_researched = colonization
+		this = c:V39
+		is_at_war = no
+		is_diplomatic_play_committed_participant = no
+	}
+
+	when_taken = {
+		set_variable = { 
+			name = SWABIA_EXPANSION_TAKEN
+			value = yes
+			}
+		annex = c:X92
+		annex = c:X86
+		annex = c:X85
+		annex = c:X80
+		annex = c:X87
+
+
+		
+		
+	}
+
+	ai_chance = {
+		base = 30
+		modifier = {
+			is_diplomatic_play_undecided_participant = yes
+			add = -1000
+		}
+	}
+}
+zzz_SWABIA_PUPPET = {
+	is_shown = {
+		exists = c:V39
+		this = c:V39
+	}
+	possible = {
+		has_technology_researched = nationalism
+		this =  c:V39
+		is_at_war = no	}
+
+	when_taken = {
+	create_diplomatic_pact = {
+	country = c:X90
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:X93
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:X91
+	type = puppet
+	}	
+	create_diplomatic_pact = {
+	country = c:X89
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:WES
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:SAX
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:W74
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:X88
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:V28
+	type = puppet
+	}
+	create_diplomatic_pact = {
+	country = c:ANH
+	type = puppet
+	}		
+	}
+
+	ai_chance = {
+		base = 30
+		modifier = {
+			is_diplomatic_play_undecided_participant = yes
+			add = -1000
+		}
+	}
+}
+
+

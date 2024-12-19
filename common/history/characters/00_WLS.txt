@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:WLS = {
+		create_character = {
+			first_name = "Gruffydd_IV"
+			last_name = "Glyndwr"
+			ruler = yes
+			culture = cu:welsh
+			religion = rel:orthodox
+			birth_date = 1818.1.3
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

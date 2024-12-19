@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:CHL = {
+		create_character = {
+			first_name = "Prithvyapida_Ganesha"
+			ruler = yes
+			culture = cu:neo-argentine_colony-hindustani_proper
+			religion = rel:hindu
+			birth_date = 1787.2.1
+			traits = {
+				syphilis 
+			}
+		}
+
+		create_character = {
+			first_name = "Vishnugupta_Roy"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1804.7.29
+			traits = {
+				inept 
+			}
+		}
+
+		create_character = {
+			first_name = "Vishnugupta_Ganguly"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1796.9.20
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

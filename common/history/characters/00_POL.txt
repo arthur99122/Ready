@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:POL = {
+		create_character = {
+			first_name = "Siemomysl_II"
+			last_name = "Lubomirski"
+			ruler = yes
+			culture = cu:polish
+			religion = rel:orthodox
+			birth_date = 1818.1.2
+			traits = {
+				basic_colonial_administrator honorable 
+			}
+		}
+
+	}
+}

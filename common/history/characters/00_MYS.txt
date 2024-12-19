@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MYS = {
+		create_character = {
+			first_name = "Ch0ma_R0ja_I"
+			last_name = "Saluva"
+			ruler = yes
+			culture = cu:kannada
+			religion = rel:hindu
+			birth_date = 1815.2.7
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

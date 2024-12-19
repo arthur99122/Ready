@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W74 = {
+		create_character = {
+			first_name = "Adalgod_V"
+			last_name = "von_Leibrechtskirchen"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1815.1.2
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W51 = {
+		create_character = {
+			first_name = "Kamarnava_I"
+			last_name = "Keshari"
+			ruler = yes
+			culture = cu:hindustani_proper
+			religion = rel:sikh
+			birth_date = 1818.2.7
+			traits = {
+				experienced_political_operator innovative 
+			}
+		}
+
+	}
+}

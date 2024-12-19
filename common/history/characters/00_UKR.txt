@@ -1,0 +1,84 @@
+﻿CHARACTERS = {
+	c:UKR = {
+		create_character = {
+			first_name = "Mikhailo_Kravchuk"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1801.4.21
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Petro_Avramenko"
+			is_general = yes
+			birth_date = 1806.2.21
+			traits = {
+				inept 
+			}
+		}
+
+		create_character = {
+			first_name = "Myroslav_Trfimenko"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1801.2.16
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Zoya"
+			last_name = "Toropetsky"
+			female = yes
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1796.9.22
+			traits = {
+				basic_political_operator hedonist 
+			}
+		}
+
+		create_character = {
+			first_name = "Ivan"
+			last_name = "Slutsky"
+			heir = yes
+			culture = cu:weder_german
+			religion = rel:orthodox
+			birth_date = 1816.7.11
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Matviyko_Maksymovych"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1782.3.13
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Andriy_III"
+			last_name = "Slutsky"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1785.12.27
+			traits = {
+				meticulous wrathful 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

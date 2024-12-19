@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:PER = {
+		create_character = {
+			first_name = "_Abb0s_I"
+			last_name = "Jaberi"
+			ruler = yes
+			culture = cu:persian
+			religion = rel:sunni
+			birth_date = 1619.9.21
+			traits = {
+				cancer cautious 
+			}
+		}
+
+	}
+}

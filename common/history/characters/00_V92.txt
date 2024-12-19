@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V92 = {
+		create_character = {
+			first_name = "Bwana_Mkuu_Dato"
+			ruler = yes
+			culture = cu:yao
+			religion = rel:sunni
+			birth_date = 1799.2.4
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

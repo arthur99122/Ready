@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W40 = {
+		create_character = {
+			first_name = "Milton_Clinton"
+			ruler = yes
+			culture = cu:neo-usa_north_colony-irish
+			religion = rel:orthodox
+			birth_date = 1802.2.4
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

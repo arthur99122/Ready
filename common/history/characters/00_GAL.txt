@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GAL = {
+		create_character = {
+			first_name = "Rostislav_II"
+			last_name = "Golitsyn"
+			ruler = yes
+			culture = cu:ukrainian
+			religion = rel:orthodox
+			birth_date = 1815.1.2
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+	}
+}

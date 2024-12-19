@@ -1,0 +1,64 @@
+﻿CHARACTERS = {
+	c:TNG = {
+		create_character = {
+			first_name = "Iwalani_Analu"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1783.12.11
+			traits = {
+				inexperienced 
+			}
+		}
+
+		create_character = {
+			first_name = "Pekelo_Loe"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1800.11.21
+			traits = {
+				meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Ulani"
+			last_name = "Anuenue"
+			female = yes
+			culture = cu:polynesian
+			religion = rel:animist
+			birth_date = 1786.11.23
+			traits = {
+				charismatic experienced_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Lahela"
+			last_name = "Tu_i_Tonga"
+			heir = yes
+			female = yes
+			culture = cu:polynesian
+			religion = rel:animist
+			birth_date = 1814.9.1
+			traits = {
+				ambitious experienced_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Kai_I"
+			last_name = "Tu_i_Tonga"
+			ruler = yes
+			culture = cu:polynesian
+			religion = rel:animist
+			birth_date = 1792.1.9
+			traits = {
+				hedonist 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

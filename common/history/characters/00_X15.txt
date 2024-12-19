@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:X15 = {
+		create_character = {
+			first_name = "Phuntsok"
+			last_name = "Mangit"
+			culture = cu:dynamic-burmese-pecheneg-panjabi-culture-num1
+			religion = rel:hindu
+			birth_date = 1782.10.1
+			traits = {
+				basic_political_operator tactful 
+			}
+		}
+
+		create_character = {
+			first_name = "Ahavamalla"
+			last_name = "Anjelo"
+			heir = yes
+			culture = cu:dynamic-burmese-pecheneg-panjabi-culture-num1
+			religion = rel:hindu
+			birth_date = 1808.9.5
+			traits = {
+				basic_political_operator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Sevindik_I"
+			last_name = "Anjelo"
+			ruler = yes
+			female = yes
+			culture = cu:dynamic-burmese-pecheneg-panjabi-culture-num1
+			religion = rel:hindu
+			birth_date = 1789.1.29
+			traits = {
+				compliant expert_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

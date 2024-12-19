@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:GUJ = {
+		create_character = {
+			first_name = "Guhasena_II"
+			last_name = "Pahore"
+			ruler = yes
+			culture = cu:hindustani_proper
+			religion = rel:sikh
+			birth_date = 1817.2.7
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

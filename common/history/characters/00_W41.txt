@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W41 = {
+		create_character = {
+			first_name = "William_Unwin"
+			ruler = yes
+			culture = cu:neo-usa_north_colony-irish
+			religion = rel:orthodox
+			birth_date = 1786.2.4
+			traits = {
+				ambitious experienced_political_operator 
+			}
+		}
+
+	}
+}

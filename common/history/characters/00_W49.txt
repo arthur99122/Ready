@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W49 = {
+		create_character = {
+			first_name = "Gunnarr_Sessegnon"
+			ruler = yes
+			culture = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
+			religion = rel:norse_pagan_reformed
+			birth_date = 1797.2.7
+			traits = {
+				arrogant basic_diplomat 
+			}
+		}
+
+	}
+}

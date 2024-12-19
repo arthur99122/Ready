@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V79 = {
+		create_character = {
+			first_name = "Claus_II"
+			last_name = "von_Kannewurf"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1815.1.2
+			traits = {
+				ambitious experienced_diplomat 
+			}
+		}
+
+	}
+}

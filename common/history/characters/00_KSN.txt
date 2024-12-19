@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KSN = {
+		create_character = {
+			first_name = "Kinguri_I"
+			last_name = "Shila"
+			ruler = yes
+			culture = cu:lunda
+			religion = rel:animist
+			birth_date = 1618.4.8
+			traits = {
+				cancer wrathful 
+			}
+		}
+
+	}
+}

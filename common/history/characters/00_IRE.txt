@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:IRE = {
+		create_character = {
+			first_name = "Adam"
+			last_name = "Dal_Fiatach"
+			heir = yes
+			culture = cu:british
+			religion = rel:protestant
+			birth_date = 1836.1.24
+			traits = {
+				trait_child 
+			}
+		}
+
+	}
+}

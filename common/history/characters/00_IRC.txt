@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:IRC = {
+		create_character = {
+			first_name = "Wichawostaka_I"
+			last_name = "Bizibina"
+			ruler = yes
+			culture = cu:siouan
+			religion = rel:animist
+			birth_date = 1790.5.2
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

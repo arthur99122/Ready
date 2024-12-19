@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:AST = {
+		create_character = {
+			first_name = "Jonathan_Baffin"
+			ruler = yes
+			culture = cu:australian
+			religion = rel:protestant
+			birth_date = 1797.2.8
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

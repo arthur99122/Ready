@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:TIB = {
+		create_character = {
+			first_name = "Tsultrim_Gyatso_I"
+			last_name = "Gnyags"
+			ruler = yes
+			culture = cu:tibetan
+			religion = rel:hindu
+			birth_date = 1815.2.7
+		}
+
+	}
+}

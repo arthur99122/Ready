@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:AUS = {
+		create_character = {
+			first_name = "Bruno_III"
+			last_name = "von_Julichgau"
+			ruler = yes
+			culture = cu:south_german
+			religion = rel:orthodox
+			birth_date = 1818.1.2
+			traits = {
+				charismatic 
+			}
+		}
+
+	}
+}

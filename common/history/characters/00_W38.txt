@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W38 = {
+		create_character = {
+			first_name = "Huachuri_Sahuaraura"
+			ruler = yes
+			culture = cu:neo-peru_colony-dynamic-fon-norse-culture-num3
+			religion = rel:norse_pagan_reformed
+			birth_date = 1783.1.2
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

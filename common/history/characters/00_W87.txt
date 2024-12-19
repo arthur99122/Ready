@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:W87 = {
+		create_character = {
+			first_name = "Minkhaung"
+			last_name = "Mong_Pai"
+			heir = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1812.10.5
+			traits = {
+				direct experienced_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Myat"
+			last_name = "Yawnghwe"
+			female = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1790.4.20
+			traits = {
+				basic_political_operator meticulous 
+			}
+		}
+
+		create_character = {
+			first_name = "Minhlange_I"
+			last_name = "Mong_Pai"
+			ruler = yes
+			culture = cu:shan
+			religion = rel:theravada
+			birth_date = 1790.2.14
+			traits = {
+				aesthete expert_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

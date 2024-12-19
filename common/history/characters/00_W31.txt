@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W31 = {
+		create_character = {
+			first_name = "Houjue_I"
+			last_name = "Gu"
+			ruler = yes
+			culture = cu:mongol
+			religion = rel:confucian
+			birth_date = 1817.1.2
+			traits = {
+				basic_colonial_administrator direct 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SYR = {
+		create_character = {
+			first_name = "al-Kamil_II"
+			last_name = "Mirdasid"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:orthodox
+			birth_date = 1817.1.2
+			traits = {
+				basic_diplomat cautious 
+			}
+		}
+
+	}
+}

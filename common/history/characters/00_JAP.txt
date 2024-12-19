@@ -1,0 +1,103 @@
+﻿CHARACTERS = {
+	c:JAP = {
+		create_character = {
+			first_name = "Kazuhito_Ryuzoji"
+			is_general = yes
+			birth_date = 1798.1.25
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Yasuhito_Mimura"
+			is_general = yes
+			birth_date = 1781.3.15
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Toshiko"
+			last_name = "Asaka"
+			female = yes
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1798.7.28
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Ieshige"
+			last_name = "Ashikaga"
+			heir = yes
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1820.2.7
+			traits = {
+				expert_colonial_administrator innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Yoshizumi_I"
+			last_name = "Ashikaga"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1797.11.16
+			traits = {
+				experienced_diplomat reserved 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Yasuhito_Satake"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1782.11.17
+			traits = {
+				shellshocked 
+			}
+		}
+
+		create_character = {
+			first_name = "Yoshikazu_Rokkaku"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1784.3.2
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Katsuhito_Toyotomi"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1789.7.19
+			traits = {
+				grifter 
+			}
+		}
+
+		create_character = {
+			first_name = "Yoshimochi_Amago"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1772.12.4
+			traits = {
+				explorer 
+			}
+		}
+
+	}
+}

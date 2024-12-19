@@ -1,0 +1,27 @@
+﻿CHARACTERS = {
+	c:X42 = {
+		create_character = {
+			first_name = "Cuixtli_Mazatl"
+			ruler = yes
+			culture = cu:tarascan
+			religion = rel:animist
+			birth_date = 1783.9.26
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+		create_character = {
+			first_name = "Moctezuma"
+			last_name = "Icpalli"
+			heir = yes
+			culture = cu:tarascan
+			religion = rel:animist
+			birth_date = 1824.6.4
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ALD = {
+		create_character = {
+			first_name = "Muhammad_II"
+			last_name = "Shammar"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:orthodox
+			birth_date = 1816.1.2
+			traits = {
+				basic_colonial_administrator imperious 
+			}
+		}
+
+	}
+}

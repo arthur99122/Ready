@@ -1,0 +1,52 @@
+﻿CHARACTERS = {
+	c:SUD = {
+		create_character = {
+			first_name = "Akbar"
+			last_name = "Senar"
+			culture = cu:somali
+			religion = rel:shiite
+			birth_date = 1811.1.4
+			traits = {
+				ambitious experienced_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Akbar"
+			last_name = "Sharifid"
+			heir = yes
+			culture = cu:somali
+			religion = rel:shiite
+			birth_date = 1832.5.23
+			traits = {
+				alcoholic trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Acenith_VI"
+			last_name = "Sharifid"
+			ruler = yes
+			female = yes
+			culture = cu:somali
+			religion = rel:shiite
+			birth_date = 1808.12.20
+			traits = {
+				charismatic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Zaia_Abboud"
+			is_admiral = yes
+			birth_date = 1788.4.10
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

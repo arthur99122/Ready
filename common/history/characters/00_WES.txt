@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:WES = {
+		create_character = {
+			first_name = "Otto_III"
+			last_name = "von_Holstein-Gottorp"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1816.1.2
+			traits = {
+				basic_colonial_administrator imperious 
+			}
+		}
+
+	}
+}

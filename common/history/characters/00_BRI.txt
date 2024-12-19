@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BRI = {
+		create_character = {
+			first_name = "Salomon_II"
+			last_name = "de_Vitre"
+			ruler = yes
+			culture = cu:breton
+			religion = rel:orthodox
+			birth_date = 1817.2.7
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

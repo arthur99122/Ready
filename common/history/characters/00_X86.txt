@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X86 = {
+		create_character = {
+			first_name = "Ademar_I"
+			last_name = "d_Albert"
+			ruler = yes
+			culture = cu:french
+			religion = rel:orthodox
+			birth_date = 1816.1.2
+			traits = {
+				basic_colonial_administrator charismatic 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X19 = {
+		create_character = {
+			first_name = "Vishnugupta_II"
+			last_name = "Pahore"
+			ruler = yes
+			culture = cu:hindustani_proper
+			religion = rel:hindu
+			birth_date = 1818.2.7
+			traits = {
+				psychological_affliction 
+			}
+		}
+
+	}
+}

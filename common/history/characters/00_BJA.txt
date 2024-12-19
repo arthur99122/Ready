@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:BJA = {
+		create_character = {
+			first_name = "Ishaq_IV"
+			last_name = "Qamhat"
+			ruler = yes
+			culture = cu:dynamic-bedouin_arabic-beja-culture-num1
+			religion = rel:orthodox
+			birth_date = 1816.1.2
+			traits = {
+				experienced_diplomat hedonist 
+			}
+		}
+
+	}
+}

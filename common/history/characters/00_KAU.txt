@@ -1,0 +1,23 @@
+﻿CHARACTERS = {
+	c:KAU = {
+		create_character = {
+			first_name = "Naata_Apari"
+			is_admiral = yes
+			commander_rank = commander_rank_3
+			female = yes
+			birth_date = 1804.2.18
+		}
+
+		create_character = {
+			first_name = "Gelar_Amaroo"
+			ruler = yes
+			culture = cu:aborigine
+			religion = rel:animist
+			birth_date = 1785.1.17
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

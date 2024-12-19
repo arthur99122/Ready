@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SWI = {
+		create_character = {
+			first_name = "Alfred_Moore"
+			ruler = yes
+			culture = cu:french
+			religion = rel:orthodox
+			birth_date = 1794.1.2
+			traits = {
+				compliant 
+			}
+		}
+
+	}
+}

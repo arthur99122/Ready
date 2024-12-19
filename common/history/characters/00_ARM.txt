@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:ARM = {
+		create_character = {
+			first_name = "Smbat_IV"
+			last_name = "Pahlavuni"
+			ruler = yes
+			culture = cu:armenian
+			birth_date = 1818.2.9
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

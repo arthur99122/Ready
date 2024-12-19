@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CAM = {
+		create_character = {
+			first_name = "Ang_Non_I"
+			last_name = "Siem_Reap"
+			ruler = yes
+			culture = cu:khmer
+			religion = rel:theravada
+			birth_date = 1817.2.7
+			traits = {
+				shellshocked 
+			}
+		}
+
+	}
+}

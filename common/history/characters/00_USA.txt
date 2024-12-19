@@ -1,0 +1,65 @@
+﻿CHARACTERS = {
+	c:USA = {
+		create_character = {
+			first_name = "Frederick_Burgoyne"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1794.8.10
+			traits = {
+				cocaine_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "David_Clarence"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1809.4.5
+			traits = {
+				syphilis 
+			}
+		}
+
+		create_character = {
+			first_name = "Adam"
+			last_name = "O_Neill"
+			heir = yes
+			culture = cu:dixie
+			religion = rel:protestant
+			birth_date = 1822.8.10
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Nehemiah_Procter"
+			is_admiral = yes
+			birth_date = 1784.1.11
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Edgar_Gloucester"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1787.6.10
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "George_Clarence"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1786.12.8
+			traits = {
+				explorer 
+			}
+		}
+
+	}
+}

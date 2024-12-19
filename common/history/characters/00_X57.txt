@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X57 = {
+		create_character = {
+			first_name = "Alessandro_I"
+			last_name = "Ceresara"
+			ruler = yes
+			culture = cu:north_italian
+			religion = rel:orthodox
+			birth_date = 1816.1.2
+			traits = {
+				charismatic experienced_colonial_administrator 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,182 @@
+﻿DIPLOMACY = {
+	c:AST = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:X19 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:X22 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:X55 = {
+		create_diplomatic_pact = {
+			country = c:W81
+			type = trade_agreement
+		}
+	}
+	c:X62 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:GUJ = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:W70 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:W82 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:MYS = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:W96 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:PRU = {
+		create_diplomatic_pact = {
+			country = c:SCA
+			type = trade_agreement
+		}
+	}
+	c:RWD = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:V29 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:V44 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:TIB = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:V73 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:V88 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:V92 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:CUB = {
+		create_diplomatic_pact = {
+			country = c:SPA
+			type = trade_agreement
+		}
+	}
+	c:NSW = {
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = trade_agreement
+		}
+	}
+	c:BAH = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:NEW = {
+		create_diplomatic_pact = {
+			country = c:SCA
+			type = trade_agreement
+		}
+	}
+	c:W30 = {
+		create_diplomatic_pact = {
+			country = c:JAP
+			type = trade_agreement
+		}
+	}
+	c:W44 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:W45 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:W46 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:W47 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:W48 = {
+		create_diplomatic_pact = {
+			country = c:W95
+			type = trade_agreement
+		}
+	}
+	c:W51 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+	c:W52 = {
+		create_diplomatic_pact = {
+			country = c:MUG
+			type = trade_agreement
+		}
+	}
+}

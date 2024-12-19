@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X99 = {
+		create_character = {
+			first_name = "Felipe_de_Requesens"
+			ruler = yes
+			interest_group = ig_industrialists
+			culture = cu:catalan
+			religion = rel:orthodox
+			birth_date = 1805.1.2
+			traits = {
+				direct 
+			}
+		}
+
+	}
+}

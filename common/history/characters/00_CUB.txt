@@ -1,0 +1,47 @@
+﻿CHARACTERS = {
+	c:CUB = {
+		create_character = {
+			first_name = "Bartolom0_Colon"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:caribeno
+			religion = rel:orthodox
+			birth_date = 1787.11.13
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Hernando_de_Bazan"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1810.10.29
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Baltasar_Carlos_Colon"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1812.7.22
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Jorge_Folch_de_Cardona"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1772.6.13
+			traits = {
+				inept 
+			}
+		}
+
+	}
+}

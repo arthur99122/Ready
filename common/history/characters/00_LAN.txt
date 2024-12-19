@@ -1,0 +1,35 @@
+﻿CHARACTERS = {
+	c:LAN = {
+		create_character = {
+			first_name = "A_sheng_Cao"
+			ruler = yes
+			culture = cu:hakka
+			religion = rel:confucian
+			birth_date = 1770.6.26
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Qianxing_Lu"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1792.7.27
+			traits = {
+				basic_offensive_planner 
+			}
+		}
+
+		create_character = {
+			first_name = "Sibo_He"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1794.12.3
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

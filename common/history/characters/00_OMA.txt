@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:OMA = {
+		create_character = {
+			first_name = "Burak_Khoury"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1795.11.25
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Munawwar"
+			last_name = "Qitas"
+			female = yes
+			culture = cu:mashriqi
+			religion = rel:shiite
+			birth_date = 1800.2.16
+			traits = {
+				honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Abd_al-Wa0id"
+			last_name = "Yousifid"
+			heir = yes
+			culture = cu:mashriqi
+			religion = rel:shiite
+			birth_date = 1821.8.17
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Abd_al-Wa0id_IV"
+			last_name = "Yousifid"
+			ruler = yes
+			culture = cu:mashriqi
+			religion = rel:shiite
+			birth_date = 1806.8.17
+			traits = {
+				basic_political_operator innovative 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

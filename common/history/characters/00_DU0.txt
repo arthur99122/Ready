@@ -1,0 +1,25 @@
+﻿CHARACTERS = {
+	c:DU0 = {
+		create_character = {
+			first_name = "Adoni_II"
+			last_name = "Warra"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:sunni
+			birth_date = 1816.3.22
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Jerara_Warra"
+			is_general = yes
+			birth_date = 1782.2.24
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

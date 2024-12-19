@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BLF = {
+		create_character = {
+			first_name = "Attistahmacan_Kiyis"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1776.3.28
+			traits = {
+				experienced_political_operator 
+			}
+		}
+
+	}
+}

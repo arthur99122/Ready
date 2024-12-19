@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W36 = {
+		create_character = {
+			first_name = "Abundi_de_Silva"
+			ruler = yes
+			culture = cu:platinean
+			religion = rel:orthodox
+			birth_date = 1786.1.2
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

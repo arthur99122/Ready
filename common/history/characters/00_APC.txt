@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:APC = {
+		create_character = {
+			first_name = "Bazheech_Mescalero"
+			ruler = yes
+			culture = cu:apache
+			religion = rel:animist
+			birth_date = 1666.7.4
+			traits = {
+				kidney_stones 
+			}
+		}
+
+	}
+}

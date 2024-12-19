@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:W39 = {
+		create_character = {
+			first_name = "Yoshinori_I"
+			last_name = "Fushimi"
+			ruler = yes
+			culture = cu:neo-peru_colony-hindustani_proper
+			religion = rel:hindu
+			birth_date = 1818.2.1
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

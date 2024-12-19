@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:Y03 = {
+		create_character = {
+			first_name = "Nucano"
+			last_name = "Veeni"
+			heir = yes
+			culture = cu:mixtec
+			religion = rel:animist
+			birth_date = 1834.2.11
+			traits = {
+				opium_addiction trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Moyolehuani"
+			last_name = "Acatl"
+			female = yes
+			culture = cu:nahua
+			religion = rel:animist
+			birth_date = 1804.6.25
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "Cocijoeza_I"
+			last_name = "Veeni"
+			ruler = yes
+			culture = cu:mixtec
+			religion = rel:animist
+			birth_date = 1796.9.1
+			traits = {
+				basic_colonial_administrator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

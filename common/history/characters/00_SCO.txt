@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:SCO = {
+		create_character = {
+			first_name = "Unuist_IV"
+			last_name = "Campbell"
+			ruler = yes
+			culture = cu:scottish
+			birth_date = 1817.1.12
+			traits = {
+				basic_diplomat meticulous 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,57 @@
+﻿CHARACTERS = {
+	c:NSW = {
+		create_character = {
+			first_name = "Jong-un_Choi"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_1
+			culture = cu:korean
+			religion = rel:confucian
+			birth_date = 1783.4.26
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Si-min_Sim"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1798.11.27
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Gwangjo_Wang"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1796.12.4
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Museon_Wang"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1792.1.26
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Geon_Sung"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1786.7.4
+			traits = {
+				meticulous 
+			}
+		}
+
+	}
+}

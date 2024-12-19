@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:KFA = {
+		create_character = {
+			first_name = "Beshi_I"
+			last_name = "Darod"
+			ruler = yes
+			culture = cu:sidama
+			religion = rel:sunni
+			birth_date = 1785.6.22
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

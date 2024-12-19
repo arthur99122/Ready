@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:ARP = {
+		create_character = {
+			first_name = "Anta_Clatsop"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1749.3.13
+			traits = {
+				alcoholic senile 
+			}
+		}
+
+	}
+}

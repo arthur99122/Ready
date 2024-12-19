@@ -1,0 +1,53 @@
+﻿CHARACTERS = {
+	c:T18 = {
+		create_character = {
+			first_name = "Panginoan"
+			last_name = "Panay"
+			female = yes
+			culture = cu:filipino
+			religion = rel:hindu
+			birth_date = 1794.9.10
+			traits = {
+				arrogant 
+			}
+		}
+
+		create_character = {
+			first_name = "Suko"
+			last_name = "Tondo"
+			heir = yes
+			culture = cu:filipino
+			religion = rel:hindu
+			birth_date = 1815.3.4
+			traits = {
+				basic_political_operator wrathful 
+			}
+		}
+
+		create_character = {
+			first_name = "Suko_Saleh"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1790.2.5
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "Alon_III"
+			last_name = "Tondo"
+			ruler = yes
+			culture = cu:filipino
+			religion = rel:hindu
+			birth_date = 1783.2.24
+			traits = {
+				ambitious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

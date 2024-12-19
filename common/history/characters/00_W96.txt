@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W96 = {
+		create_character = {
+			first_name = "Henri_de_Saint-Bosmer"
+			ruler = yes
+			culture = cu:french
+			religion = rel:catholic
+			birth_date = 1806.2.4
+			traits = {
+				basic_political_operator 
+			}
+		}
+
+	}
+}

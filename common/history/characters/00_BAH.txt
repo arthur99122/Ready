@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:BAH = {
+		create_character = {
+			first_name = "Hro0geirr_Lo0brok"
+			ruler = yes
+			culture = cu:neo-caribbean_colony-dynamic-norse-culture-num1
+			religion = rel:norse_pagan_reformed
+			birth_date = 1795.12.15
+			traits = {
+				basic_diplomat meticulous 
+			}
+		}
+
+	}
+}

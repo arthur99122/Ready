@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:V44 = {
+		create_character = {
+			first_name = "Mujuma_Mtika"
+			ruler = yes
+			culture = cu:chewa
+			religion = rel:animist
+			birth_date = 1789.2.4
+			traits = {
+				alcoholic 
+			}
+		}
+
+	}
+}

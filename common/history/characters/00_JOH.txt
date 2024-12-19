@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:JOH = {
+		create_character = {
+			first_name = "Abd_al-Jal0l_Muazzam_Sh0h_IV"
+			last_name = "Johor"
+			ruler = yes
+			culture = cu:malay
+			religion = rel:orthodox
+			birth_date = 1816.2.7
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}

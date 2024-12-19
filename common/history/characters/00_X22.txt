@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:X22 = {
+		create_character = {
+			first_name = "Govinda_III"
+			last_name = "Tuluva"
+			ruler = yes
+			culture = cu:dynamic-kannada-culture-num1
+			religion = rel:hindu
+			birth_date = 1816.2.7
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+	}
+}

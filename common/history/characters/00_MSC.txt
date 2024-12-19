@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MSC = {
+		create_character = {
+			first_name = "Opothleyaholo_I"
+			last_name = "Lumhe_Chati"
+			ruler = yes
+			culture = cu:muskogean
+			religion = rel:animist
+			birth_date = 1817.2.4
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

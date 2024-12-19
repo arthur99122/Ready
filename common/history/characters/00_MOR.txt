@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:MOR = {
+		create_character = {
+			first_name = "Muhammad_III"
+			last_name = "al-Ilighi"
+			ruler = yes
+			culture = cu:maghrebi
+			religion = rel:orthodox
+			birth_date = 1817.1.2
+			traits = {
+				cautious 
+			}
+		}
+
+	}
+}

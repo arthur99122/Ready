@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X36 = {
+		create_character = {
+			first_name = "Phrachao_Suea_Boonmee"
+			ruler = yes
+			culture = cu:neo-argentine_colony-central_thai
+			religion = rel:confucian
+			birth_date = 1779.2.2
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

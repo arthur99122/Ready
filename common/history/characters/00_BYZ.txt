@@ -1,0 +1,36 @@
+﻿CHARACTERS = {
+	c:BYZ = {
+		create_character = {
+			first_name = "Gratian_II"
+			last_name = "Perenos"
+			ruler = yes
+			culture = cu:dynamic-georgian-greek-norse-culture-num1
+			religion = rel:orthodox
+			birth_date = 1819.12.12
+			traits = {
+				basic_political_operator imperious 
+			}
+		}
+
+		create_character = {
+			first_name = "Titus_Diasorenos"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1787.12.22
+			traits = {
+				opium_addiction 
+			}
+		}
+
+		create_character = {
+			first_name = "Constantius_Batatzes"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1784.3.21
+			traits = {
+				inexperienced 
+			}
+		}
+
+	}
+}

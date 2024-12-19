@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:ANH = {
+		create_character = {
+			first_name = "Rudolf_V"
+			last_name = "von_Plessen"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1818.1.2
+			traits = {
+				ambitious 
+			}
+		}
+
+	}
+}

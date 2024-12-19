@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:V28 = {
+		create_character = {
+			first_name = "Warin_II"
+			last_name = "von_Brandenstein"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:nestorian
+			birth_date = 1817.1.2
+			traits = {
+				experienced_political_operator innovative 
+			}
+		}
+
+	}
+}

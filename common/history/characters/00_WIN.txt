@@ -1,0 +1,45 @@
+﻿CHARACTERS = {
+	c:WIN = {
+		create_character = {
+			first_name = "Miguel_Pizarro"
+			ruler = yes
+			culture = cu:caribeno
+			religion = rel:orthodox
+			birth_date = 1783.10.16
+			traits = {
+				cruel 
+			}
+		}
+
+		create_character = {
+			first_name = "Jorge_Alvarez_de_Toledo"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1799.3.21
+			traits = {
+				inept 
+			}
+		}
+
+		create_character = {
+			first_name = "Fausto_Coronado"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1771.12.15
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Hernando_Campomanes"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1773.7.13
+			traits = {
+				opium_addiction 
+			}
+		}
+
+	}
+}

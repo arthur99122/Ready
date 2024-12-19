@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:CIR = {
+		create_character = {
+			first_name = "Toutaryk_I"
+			last_name = "Okhlov"
+			ruler = yes
+			culture = cu:circassian
+			religion = rel:orthodox
+			birth_date = 1817.1.9
+			traits = {
+				basic_political_operator wrathful 
+			}
+		}
+
+	}
+}

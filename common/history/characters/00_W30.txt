@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W30 = {
+		create_character = {
+			first_name = "Yoshimochi_Nabeshima"
+			ruler = yes
+			culture = cu:japanese
+			religion = rel:shinto
+			birth_date = 1792.1.2
+			traits = {
+				innovative 
+			}
+		}
+
+	}
+}

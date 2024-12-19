@@ -1,0 +1,63 @@
+﻿CHARACTERS = {
+	c:PRU = {
+		create_character = {
+			first_name = "Ekkelis_von_Schwerin"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1798.12.16
+			traits = {
+				innovative 
+			}
+		}
+
+		create_character = {
+			first_name = "Budo_von_Preu0en"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1795.9.18
+			traits = {
+				direct 
+			}
+		}
+
+		create_character = {
+			first_name = "Gerkus"
+			last_name = "von_Fritsch"
+			female = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1783.4.26
+			traits = {
+				basic_colonial_administrator reserved 
+			}
+		}
+
+		create_character = {
+			first_name = "Bezprzym"
+			last_name = "von_Zahringen"
+			heir = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1800.9.1
+			traits = {
+				basic_political_operator reckless 
+			}
+		}
+
+		create_character = {
+			first_name = "Kugis_III"
+			last_name = "von_Zahringen"
+			ruler = yes
+			culture = cu:north_german
+			religion = rel:orthodox
+			birth_date = 1779.10.2
+			traits = {
+				basic_political_operator romantic 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

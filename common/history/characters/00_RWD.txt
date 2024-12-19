@@ -1,0 +1,38 @@
+﻿CHARACTERS = {
+	c:RWD = {
+		create_character = {
+			first_name = "Ntare_I_Kivimira"
+			last_name = "Cambarantama"
+			ruler = yes
+			culture = cu:ruanda
+			religion = rel:animist
+			birth_date = 1812.1.13
+			traits = {
+				experienced_colonial_administrator honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Yuhi_Abazigaba"
+			is_general = yes
+			commander_rank = commander_rank_1
+			birth_date = 1790.4.27
+			traits = {
+				ambitious 
+			}
+		}
+
+		create_character = {
+			first_name = "Kigeli"
+			last_name = "Huma"
+			heir = yes
+			culture = cu:ruanda
+			religion = rel:animist
+			birth_date = 1810.6.25
+			traits = {
+				arrogant 
+			}
+		}
+
+	}
+}

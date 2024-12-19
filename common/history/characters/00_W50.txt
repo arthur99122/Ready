@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W50 = {
+		create_character = {
+			first_name = "Houedogni_Tometin"
+			ruler = yes
+			culture = cu:neo-brazil_colony-dynamic-fon-norse-culture-num3
+			religion = rel:norse_pagan_reformed
+			birth_date = 1788.2.7
+			traits = {
+				basic_political_operator cruel 
+			}
+		}
+
+	}
+}

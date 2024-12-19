@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SH0 = {
+		create_character = {
+			first_name = "Po_Rattirai_I"
+			last_name = "Vijaya"
+			ruler = yes
+			culture = cu:sumatran
+			religion = rel:theravada
+			birth_date = 1817.2.7
+			traits = {
+				basic_diplomat 
+			}
+		}
+
+	}
+}

@@ -1,0 +1,70 @@
+﻿CHARACTERS = {
+	c:MAH = {
+		create_character = {
+			first_name = "Pulad_Ziyad"
+			is_general = yes
+			commander_rank = commander_rank_3
+			birth_date = 1800.2.13
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Aytekin_Bannu_Zanna"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1801.7.24
+			traits = {
+				explorer 
+			}
+		}
+
+		create_character = {
+			first_name = "Gulbahar"
+			last_name = "Shaybanid"
+			female = yes
+			culture = cu:turko_iranian
+			religion = rel:sunni
+			birth_date = 1791.9.12
+			traits = {
+				ambitious basic_colonial_administrator 
+			}
+		}
+
+		create_character = {
+			first_name = "Aksonqor"
+			last_name = "Seljuk"
+			heir = yes
+			culture = cu:turko_iranian
+			religion = rel:sunni
+			birth_date = 1813.10.26
+			traits = {
+				basic_colonial_administrator honorable 
+			}
+		}
+
+		create_character = {
+			first_name = "Aksonqor_V"
+			last_name = "Seljuk"
+			ruler = yes
+			culture = cu:turko_iranian
+			religion = rel:sunni
+			birth_date = 1798.10.26
+			traits = {
+				basic_political_operator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Chophel_Kamsit"
+			is_admiral = yes
+			commander_rank = commander_rank_2
+			birth_date = 1790.11.21
+		}
+
+	}
+}

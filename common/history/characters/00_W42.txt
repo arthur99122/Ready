@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:W42 = {
+		create_character = {
+			first_name = "Isaac_Douglas"
+			ruler = yes
+			culture = cu:neo-texas_colony-irish
+			religion = rel:orthodox
+			birth_date = 1781.2.4
+			traits = {
+				basic_political_operator imperious 
+			}
+		}
+
+	}
+}

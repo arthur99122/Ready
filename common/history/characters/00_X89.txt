@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X89 = {
+		create_character = {
+			first_name = "Adam_Cromwell"
+			ruler = yes
+			culture = cu:french
+			religion = rel:orthodox
+			birth_date = 1777.1.2
+			traits = {
+				cruel 
+			}
+		}
+
+	}
+}

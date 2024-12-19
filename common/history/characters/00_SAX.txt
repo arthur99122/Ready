@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:SAX = {
+		create_character = {
+			first_name = "Albrecht_I"
+			last_name = "von_Rex"
+			ruler = yes
+			culture = cu:dynamic-chihan-swedish-culture-num1
+			religion = rel:nestorian
+			birth_date = 1817.1.2
+			traits = {
+				aesthete basic_political_operator 
+			}
+		}
+
+	}
+}

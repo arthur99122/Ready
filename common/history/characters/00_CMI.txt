@@ -1,0 +1,43 @@
+﻿CHARACTERS = {
+	c:CMI = {
+		create_character = {
+			first_name = "Chiraprapha"
+			last_name = "Chiang_Mai"
+			female = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1808.1.29
+			traits = {
+				ambitious masterful_diplomat 
+			}
+		}
+
+		create_character = {
+			first_name = "Kawila"
+			last_name = "Mangrai"
+			heir = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1825.10.31
+			traits = {
+				trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "Cheputarai_V"
+			last_name = "Mangrai"
+			ruler = yes
+			culture = cu:thai
+			religion = rel:theravada
+			birth_date = 1786.4.3
+			traits = {
+				basic_political_operator cautious 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+	}
+}

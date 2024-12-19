@@ -1,0 +1,95 @@
+﻿CHARACTERS = {
+	c:SLW = {
+		create_character = {
+			first_name = "Muhammad_Bakr_Hasan_Batuta"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1793.12.7
+			traits = {
+				alcoholic 
+			}
+		}
+
+		create_character = {
+			first_name = "_Abd_al-Qudus_Zulkifli"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1791.2.25
+			traits = {
+				expensive_tastes 
+			}
+		}
+
+		create_character = {
+			first_name = "Shih0b_ad-D0n_Ism0_0l_Mahat"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1805.12.2
+			traits = {
+				charismatic 
+			}
+		}
+
+		create_character = {
+			first_name = "_Umniya"
+			last_name = "Palopo"
+			female = yes
+			culture = cu:moluccan
+			religion = rel:hindu
+			birth_date = 1796.6.3
+			traits = {
+				romantic 
+			}
+		}
+
+		create_character = {
+			first_name = "Tuni_Djallori"
+			last_name = "Bone"
+			heir = yes
+			culture = cu:moluccan
+			religion = rel:hindu
+			birth_date = 1827.12.1
+			traits = {
+				basic_political_operator trait_child 
+			}
+		}
+
+		create_character = {
+			first_name = "_Abd_al-H0d0_IV"
+			last_name = "Bone"
+			ruler = yes
+			is_general = yes
+			commander_rank = commander_rank_2
+			culture = cu:moluccan
+			religion = rel:hindu
+			birth_date = 1801.6.7
+			traits = {
+				bigoted experienced_political_operator 
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Muhammad_Malik_Najamuddin"
+			is_general = yes
+			commander_rank = commander_rank_2
+			birth_date = 1783.11.3
+			traits = {
+				surveyor 
+			}
+		}
+
+		create_character = {
+			first_name = "Sankilang_Syarifuddin"
+			is_admiral = yes
+			commander_rank = commander_rank_1
+			birth_date = 1786.7.27
+			traits = {
+				explorer 
+			}
+		}
+
+	}
+}

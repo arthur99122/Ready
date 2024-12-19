@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:N11 = {
+		create_character = {
+			first_name = "Qualebeenewes_Odanak"
+			ruler = yes
+			culture = cu:algonquian
+			religion = rel:animist
+			birth_date = 1692.7.24
+			traits = {
+				senile 
+			}
+		}
+
+	}
+}

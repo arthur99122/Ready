@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:X96 = {
+		create_character = {
+			first_name = "Karl_Dufwa"
+			ruler = yes
+			culture = cu:dynamic-chihan-swedish-culture-num1
+			religion = rel:nestorian
+			birth_date = 1793.1.2
+			traits = {
+				basic_political_operator direct 
+			}
+		}
+
+	}
+}

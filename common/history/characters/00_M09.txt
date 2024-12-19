@@ -1,0 +1,16 @@
+﻿CHARACTERS = {
+	c:M09 = {
+		create_character = {
+			first_name = "Moonias_I"
+			last_name = "Chemawawin"
+			ruler = yes
+			culture = cu:cree
+			religion = rel:animist
+			birth_date = 1817.2.4
+			traits = {
+				basic_colonial_administrator 
+			}
+		}
+
+	}
+}
