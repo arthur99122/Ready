@@ -10,15 +10,6 @@
 	}
 	c:X16 = {
 		create_diplomatic_pact = {
-			country = c:SWI
-			type = puppet
-		}
-	}
-	c:SWI = {
-		add_liberty_desire = -50
-	}
-	c:X16 = {
-		create_diplomatic_pact = {
 			country = c:X85
 			type = puppet
 		}

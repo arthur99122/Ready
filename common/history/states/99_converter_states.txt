@@ -8660,17 +8660,13 @@
 	}
 	s:STATE_WALLONIA = {
 		create_state = {
-			country = c:NET
-			owned_provinces = { x2D32D7 x3A5FB9 x916574 xB0A0C0 xEF2040 }
-			state_type = incorporated
-		}
-		create_state = {
 			country = c:X16
-			owned_provinces = { x5180A0 x8080A0 xD001A0 }
+			owned_provinces = { x5180A0 x8080A0 xD001A0 x2D32D7 x3A5FB9 x916574 xB0A0C0 xEF2040 }
 			state_type = incorporated
 		}
 		add_homeland = cu:flemish
 		add_homeland = cu:wallonian
+		add_homeland = cu:french
 		add_claim = c:NET
 	}
 	s:STATE_WASHINGTON = {
