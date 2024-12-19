@@ -5612,7 +5612,12 @@ French_victory_over_rheinland_coalition = {
 	country_prestige_add = 50
 	state_assimilation_mult = 0.1
 }
-
+Starting_Buff = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	country_construction_add = 50
+	country_tax_income_add = 40000
+}
+	
 
 
 
