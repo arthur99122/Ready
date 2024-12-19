@@ -5605,5 +5605,15 @@ zulu_standard_of_living_modifier_negative = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds"
 	state_zulu_standard_of_living_add = 1
 }
+French_victory_over_rheinland_coalition = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	unit_kill_rate_add = 0.1
+	country_construction_add = 5000
+	country_prestige_add = 50
+	state_assimilation_mult = 0.1
+}
+
+
+
 
 

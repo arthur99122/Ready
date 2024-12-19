@@ -985,6 +985,11 @@
 			institution = institution_police
 			level = 1
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:CAL = {
 		add_technology_researched = admiralty
@@ -2791,6 +2796,11 @@
 			institution = institution_schools
 			level = 3
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:MYS = {
 		add_technology_researched = academia
@@ -3743,6 +3753,11 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_slavery_banned
 		activate_law = law_type:law_state_religion
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:Q01 = {
 		effect_native_conscription_3 = yes
@@ -4095,6 +4110,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:SCO = {
@@ -5131,6 +5151,11 @@
 			institution = institution_schools
 			level = 3
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:USA = {
 		add_technology_researched = academia
@@ -5737,6 +5762,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:V41 = {
@@ -6425,6 +6455,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    		is_decaying = no # Optional, if yes, it will decay, default is no
+    		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:V69 = {
@@ -10133,6 +10168,12 @@
 			institution = institution_schools
 			level = 3
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = French_victory_over_rheinland_coalition # the modifier you want
+   			# multiplier = -3 # Optional, multiplied by a specific [decimal or integer] number, script value, or math block
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+    			months = 3 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+}
 	}
 	c:X19 = {
 		add_technology_researched = academia
