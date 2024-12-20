@@ -15061,7 +15061,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PRU
-						levels = 3
+						levels = 6
 						region = STATE_EAST_PRUSSIA
 					}
 				}
@@ -15069,7 +15069,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 1
+						levels = 2
 						region = STATE_SVEALAND
 					}
 				}
@@ -37800,7 +37800,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:PRU
-						levels = 4
+						levels = 6
 						region = STATE_POMERANIA
 					}
 				}
@@ -37823,7 +37823,7 @@
 				add_ownership = {
 					country = {
 						country = c:PRU
-						levels = 4
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -37835,7 +37835,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PRU
-						levels = 4
+						levels = 8
 						region = STATE_POMERANIA
 					}
 				}
@@ -37843,7 +37843,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 1
+						levels = 2
 						region = STATE_SVEALAND
 					}
 				}
@@ -37855,7 +37855,7 @@
 				add_ownership = {
 					country = {
 						country = c:PRU
-						levels = 2
+						levels = 1
 					}
 				}
 				reserves = 1
