@@ -2671,7 +2671,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 2
+						levels = 12
 						region = STATE_AQUITAINE
 					}
 				}
@@ -3707,6 +3707,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X16
+						levels = 9
+						region = STATE_AUVERGNE_LIMOUSIN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_vineyard_plantation"
@@ -7181,7 +7194,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:BRI
-						levels = 3
+						levels = 6
 						region = STATE_BRITTANY
 					}
 				}
@@ -7194,7 +7207,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BRI
-						levels = 2
+						levels = 24
 						region = STATE_BRITTANY
 					}
 				}
@@ -7202,7 +7215,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 1
+						levels = 12
 						region = STATE_ILE_DE_FRANCE
 					}
 				}
@@ -7215,7 +7228,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BRI
-						levels = 2
+						levels = 4
 						region = STATE_BRITTANY
 					}
 				}
@@ -7236,7 +7249,7 @@
 					building = {
 						type = building_textile_mills
 						country = c:BRI
-						levels = 1
+						levels = 3
 						region = STATE_BRITTANY
 					}
 				}
@@ -7249,7 +7262,7 @@
 					building = {
 						type = building_furniture_manufacturies
 						country = c:BRI
-						levels = 1
+						levels = 3
 						region = STATE_BRITTANY
 					}
 				}
@@ -7261,7 +7274,7 @@
 				add_ownership = {
 					country = {
 						country = c:BRI
-						levels = 3
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -7272,7 +7285,7 @@
 				add_ownership = {
 					country = {
 						country = c:BRI
-						levels = 4
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -7283,11 +7296,22 @@
 				add_ownership = {
 					country = {
 						country = c:BRI
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_chemical_plants"
+				add_ownership = {
+					country = {
+						country = c:BRI
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 		}
 	}
@@ -7651,7 +7675,7 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 2
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -7692,7 +7716,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 3
+						levels = 6
 						region = STATE_BURGUNDY
 					}
 				}
@@ -10122,7 +10146,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 2
+						levels = 8
 						region = STATE_CHAMPAGNE
 					}
 				}
@@ -18886,7 +18910,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 3
+						levels = 6
 						region = STATE_GUYENNE
 					}
 				}
@@ -18899,7 +18923,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 2
+						levels = 4
 						region = STATE_GUYENNE
 					}
 				}
@@ -21167,7 +21191,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 2
+						levels = 4
 						region = STATE_ILE_DE_FRANCE
 					}
 				}
@@ -21180,7 +21204,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 6
+						levels = 12
 						region = STATE_ILE_DE_FRANCE
 					}
 				}
@@ -25097,7 +25121,7 @@
 				building = "building_barracks"
 				add_ownership = {
 					country = {
-						country = c:SPA
+						country = c:X16
 						levels = 1
 					}
 				}
@@ -25161,7 +25185,7 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 2
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -25186,7 +25210,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 5
+						levels = 12
 						region = STATE_LANGUEDOC
 					}
 				}
@@ -25199,7 +25223,7 @@
 					building = {
 						type = building_furniture_manufacturies
 						country = c:X16
-						levels = 1
+						levels = 3
 						region = STATE_LANGUEDOC
 					}
 				}
@@ -25212,7 +25236,7 @@
 					building = {
 						type = building_financial_district
 						country = c:X16
-						levels = 1
+						levels = 2
 						region = STATE_LANGUEDOC
 					}
 				}
@@ -25220,7 +25244,7 @@
 					building = {
 						type = building_financial_district
 						country = c:X16
-						levels = 1
+						levels = 2
 						region = STATE_ILE_DE_FRANCE
 					}
 				}
@@ -25228,7 +25252,7 @@
 					building = {
 						type = building_food_industry
 						country = c:X16
-						levels = 1
+						levels = 2
 						region = STATE_LANGUEDOC
 					}
 				}
@@ -25240,7 +25264,7 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -27690,7 +27714,7 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 3
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -27722,6 +27746,19 @@
 						region = STATE_MAINE_ANJOU
 					}
 				}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X16
+						levels = 9
+						region = STATE_MAINE_ANJOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
+			}
 				reserves = 1
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
@@ -33089,7 +33126,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 3
+						levels = 9
 						region = STATE_NORMANDY
 					}
 				}
@@ -35405,7 +35442,7 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 1
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -35446,7 +35483,7 @@
 					building = {
 						type = building_manor_house
 						country = c:X16
-						levels = 4
+						levels = 8
 						region = STATE_ORLEANS
 					}
 				}
@@ -36970,11 +37007,24 @@
 				add_ownership = {
 					country = {
 						country = c:X16
-						levels = 1
+						levels = 5
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_general_training" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X16
+						levels = 9
+						region = STATE_PICARDY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -37211,6 +37261,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X16
+						levels = 9
+						region = STATE_POITOU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -37594,7 +37657,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V21
-						levels = 3
+						levels = 10
 						region = STATE_PROVENCE
 					}
 				}

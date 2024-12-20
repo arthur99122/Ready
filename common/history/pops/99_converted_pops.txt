@@ -2404,7 +2404,7 @@
 				size = 203
 			}
 		}
-		region_state:PRU = {
+		region_state:ANH = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -4585,7 +4585,7 @@
 				size = 588
 			}
 		}
-		region_state:X93 = {
+		region_state:X87 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
@@ -7401,7 +7401,7 @@
 				size = 1490
 			}
 		}
-		region_state:S18 = {
+		region_state:PRU = {
 			create_pop = {
 				culture = polish
 				religion = orthodox
@@ -7418,7 +7418,7 @@
 				size = 623875
 			}
 		}
-		region_state:X77 = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -7440,7 +7440,7 @@
 				size = 1987
 			}
 		}
-		region_state:X95 = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
@@ -15342,7 +15342,7 @@
 				size = 649
 			}
 		}
-		region_state:X78 = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -18189,7 +18189,7 @@
 				size = 3021
 			}
 		}
-		region_state:BYZ = {
+		region_state:ARM = {
 			create_pop = {
 				culture = dynamic-georgian-greek-norse-culture-num1
 				religion = orthodox
@@ -19714,7 +19714,7 @@
 		}
 	}
 	s:STATE_HANNOVER = {
-		region_state:NET = {
+		region_state:X89 = {
 			create_pop = {
 				culture = dutch
 				religion = orthodox
@@ -20639,7 +20639,7 @@
 				size = 377
 			}
 		}
-		region_state:X92 = {
+		region_state:X88 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -23305,7 +23305,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:BOS = {
+		region_state:VEN = {
 			create_pop = {
 				culture = croat
 				religion = orthodox
@@ -24622,7 +24622,7 @@
 		}
 	}
 	s:STATE_KARS = {
-		region_state:BYZ = {
+		region_state:ARM = {
 			create_pop = {
 				culture = dynamic-georgian-greek-norse-culture-num1
 				religion = orthodox
@@ -31691,7 +31691,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:X77 = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -36065,7 +36065,7 @@
 		}
 	}
 	s:STATE_NIGER = {
-		region_state:TUN = {
+		region_state:W95 = {
 			create_pop = {
 				culture = teda
 				religion = catholic
@@ -36963,7 +36963,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:KOR = {
+		region_state:V67 = {
 			create_pop = {
 				culture = buryat
 				religion = tengri_pagan_reformed
@@ -42288,7 +42288,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:POL = {
+		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -42646,7 +42646,7 @@
 				size = 490
 			}
 		}
-		region_state:X81 = {
+		region_state:V21 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -44134,7 +44134,7 @@
 		}
 	}
 	s:STATE_RHONE = {
-		region_state:V21 = {
+		region_state:X16 = {
 			create_pop = {
 				culture = north_italian
 				religion = catholic
@@ -44951,7 +44951,7 @@
 		}
 	}
 	s:STATE_RUHR = {
-		region_state:X88 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -45217,7 +45217,7 @@
 				size = 5
 			}
 		}
-		region_state:W95 = {
+		region_state:TUA = {
 			create_pop = {
 				culture = berber
 				religion = orthodox
@@ -49694,7 +49694,7 @@
 				size = 1502
 			}
 		}
-		region_state:W29 = {
+		region_state:V69 = {
 			create_pop = {
 				culture = mongol
 				religion = sunni
@@ -53320,7 +53320,7 @@
 		}
 	}
 	s:STATE_TYROL = {
-		region_state:AUS = {
+		region_state:X80 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -53339,14 +53339,14 @@
 				size = 536261
 			}
 		}
-		region_state:X83 = {
+		region_state:X80 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
 				size = 98785
 			}
 		}
-		region_state:X85 = {
+		region_state:X80 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
@@ -56334,7 +56334,7 @@
 		}
 	}
 	s:STATE_WALLONIA = {
-		region_state:NET = {
+		region_state:X16 = {
 			create_pop = {
 				culture = flemish
 				religion = orthodox
@@ -56942,7 +56942,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
-		region_state:X88 = {
+		region_state:X89 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox

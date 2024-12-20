@@ -152,7 +152,7 @@ zzz_SWABIA_PUPPET = {
 		this = c:V39
 	}
 	possible = {
-		has_technology_researched = nationalism
+		#has_technology_researched = nationalism
 		this =  c:V39
 		is_at_war = no	}
 
@@ -200,7 +200,7 @@ zzz_SWABIA_PUPPET = {
 	}
 
 	ai_chance = {
-		base = 30
+		base = 100
 		modifier = {
 			is_diplomatic_play_undecided_participant = yes
 			add = -1000
@@ -208,4 +208,47 @@ zzz_SWABIA_PUPPET = {
 	}
 }
 
+zzz_annex_puppet_france ={
+		is_shown = {
+		exists = c:X16
+		this = c:X16
+	}
+		possible = {
+		this =  c:X16
+		is_at_war = no	}
+	when_taken = {
+		annex = c:BRI
+		annex = c:V21
+	}
+}
+unincorporate_states_decision = {
 
+	is_shown = {
+		any_scope_state = {
+			is_incorporated = yes
+		}
+		exists = c:X16
+		this = c:X16
+	}
+	
+	possible = {
+		any_scope_state = {
+			is_incorporated = yes
+		}
+		is_ai = no
+	}
+
+	when_taken = {
+		
+		every_scope_state = {
+			limit = {
+				is_incorporated = no
+				owner = ROOT
+			}
+			set_state_type = incorporated
+		}
+	}
+
+	ai_chance = 0
+
+}
