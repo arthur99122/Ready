@@ -7401,7 +7401,7 @@
 				size = 1490
 			}
 		}
-		region_state:PRU = {
+		region_state:S18 = {
 			create_pop = {
 				culture = polish
 				religion = orthodox
@@ -7418,7 +7418,7 @@
 				size = 623875
 			}
 		}
-		region_state:PRU = {
+		region_state:X77 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -44951,7 +44951,7 @@
 		}
 	}
 	s:STATE_RUHR = {
-		region_state:X89 = {
+		region_state:X88 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -44983,7 +44983,7 @@
 				size = 313
 			}
 		}
-		region_state:X89 = {
+		region_state:X88 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -53320,7 +53320,7 @@
 		}
 	}
 	s:STATE_TYROL = {
-		region_state:X80 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -53332,21 +53332,21 @@
 				size = 66382
 			}
 		}
-		region_state:X80 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
 				size = 536261
 			}
 		}
-		region_state:X80 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
 				size = 98785
 			}
 		}
-		region_state:X80 = {
+		region_state:X83 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
