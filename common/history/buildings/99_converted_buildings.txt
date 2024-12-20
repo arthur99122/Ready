@@ -17653,19 +17653,6 @@
 				activate_production_methods = { "pm_general_training" }
 			}
 			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = building_financial_district
-						country = c:SCA
-						levels = 1
-						region = STATE_GOTALAND
-					}
-				}
-				reserves = 1
-				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
-			}
-			create_building = {
 				building = "building_rye_farm"
 				add_ownership = {
 					building = {
@@ -17710,7 +17697,7 @@
 					building = {
 						type = building_shipyards
 						country = c:SCA
-						levels = 1
+						levels = 3
 						region = STATE_GOTALAND
 					}
 				}
@@ -22970,7 +22957,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:SCA
-						levels = 2
+						levels = 4
 						region = STATE_JUTLAND
 					}
 				}
@@ -22994,7 +22981,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 2
+						levels = 6
 						region = STATE_JUTLAND
 					}
 				}
@@ -41075,7 +41062,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 9
+						levels = 30
 					}
 				}
 				reserves = 1
@@ -44377,7 +44364,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:SCA
-						levels = 4
+						levels = 2
 						region = STATE_SVEALAND
 					}
 				}
@@ -53306,7 +53293,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 2
+						levels = 10
 					}
 				}
 				reserves = 1
