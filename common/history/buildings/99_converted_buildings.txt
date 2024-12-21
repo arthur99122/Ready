@@ -13926,7 +13926,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:SCA
-						levels = 1
+						levels = 15
 						region = STATE_EASTERN_NORWAY
 					}
 				}
@@ -14876,7 +14876,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:SCA
-						levels = 1
+						levels = 3
 						region = STATE_EAST_KARELIA
 					}
 				}
@@ -14889,7 +14889,7 @@
 					building = {
 						type = building_iron_mine
 						country = c:SCA
-						levels = 1
+						levels = 2
 						region = STATE_EAST_KARELIA
 					}
 				}
@@ -17646,7 +17646,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 1
+						levels = 4
 					}
 				}
 				reserves = 1
@@ -17658,7 +17658,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 1
+						levels = 25
 						region = STATE_GOTALAND
 					}
 				}
@@ -21304,7 +21304,7 @@
 					building = {
 						type = building_sulfur_mine
 						country = c:SCA
-						levels = 1
+						levels = 6
 						region = STATE_ICELAND
 					}
 				}
@@ -21565,7 +21565,7 @@
 					building = {
 						type = building_financial_district
 						country = c:SCA
-						levels = 1
+						levels = 4
 						region = STATE_INGRIA
 					}
 				}
@@ -21578,7 +21578,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 1
+						levels = 8
 						region = STATE_INGRIA
 					}
 				}
@@ -22969,7 +22969,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 11
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -22981,12 +22981,12 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 6
+						levels = 30
 						region = STATE_JUTLAND
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_no_secondary" }
+				activate_production_methods = { "pm_potatoes" }
 			}
 			create_building = {
 				building = "building_livestock_ranch"
@@ -23007,7 +23007,7 @@
 					building = {
 						type = building_furniture_manufacturies
 						country = c:SCA
-						levels = 1
+						levels = 2
 						region = STATE_JUTLAND
 					}
 				}
@@ -23019,7 +23019,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 3
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -33576,7 +33576,7 @@
 					building = {
 						type = building_financial_district
 						country = c:SCA
-						levels = 1
+						levels = 18
 						region = STATE_NORRLAND
 					}
 				}
@@ -33589,7 +33589,7 @@
 					building = {
 						type = building_financial_district
 						country = c:SCA
-						levels = 1
+						levels = 2
 						region = STATE_NORRLAND
 					}
 				}
@@ -36169,7 +36169,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:SCA
-						levels = 1
+						levels = 5
 						region = STATE_OULU
 					}
 				}
@@ -36182,7 +36182,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:SCA
-						levels = 1
+						levels = 5
 						region = STATE_OULU
 					}
 				}
@@ -36212,6 +36212,18 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_munition_plants"
+				add_ownership = {
+					country = {
+						country = c:SCA
+						levels = 2
+						region = STATE_OULU
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 		}
 	}
@@ -41113,7 +41125,7 @@
 					building = {
 						type = building_textile_mills
 						country = c:SCA
-						levels = 1
+						levels = 4
 						region = STATE_SCANIA
 					}
 				}
@@ -41126,7 +41138,7 @@
 					building = {
 						type = building_furniture_manufacturies
 						country = c:SCA
-						levels = 1
+						levels = 8
 						region = STATE_SCANIA
 					}
 				}
@@ -41154,6 +41166,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+			}
+			create_building = {
+				building = "building_chemical_plants"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:SCA
+						levels = 4
+						region = STATE_SCANIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_coal_mine"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:SCA
+						levels = 8
+						region = STATE_SCANIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_picks_and_shovels_building_coal_mine" }
 			}
 		}
 	}
@@ -44348,7 +44386,7 @@
 					building = {
 						type = building_financial_district
 						country = c:SCA
-						levels = 3
+						levels = 4
 						region = STATE_SVEALAND
 					}
 				}
@@ -44356,7 +44394,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 2
+						levels = 4
 						region = STATE_SVEALAND
 					}
 				}
@@ -44364,7 +44402,7 @@
 					building = {
 						type = building_logging_camp
 						country = c:SCA
-						levels = 2
+						levels = 1
 						region = STATE_SVEALAND
 					}
 				}
@@ -44390,7 +44428,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 1
+						levels = 3
 						region = STATE_SVEALAND
 					}
 				}
@@ -44402,7 +44440,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
@@ -44427,7 +44465,7 @@
 					building = {
 						type = building_tooling_workshops
 						country = c:SCA
-						levels = 1
+						levels = 10
 						region = STATE_SVEALAND
 					}
 				}
@@ -44439,7 +44477,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 4
+						levels = 6
 					}
 				}
 				reserves = 1
@@ -44450,7 +44488,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 11
+						levels = 15
 					}
 				}
 				reserves = 1
@@ -44461,13 +44499,37 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 1
+						levels = 2
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+
+			}
+			create_building = {
+				building = "building_lead_mine"
+				add_ownership = {
+					building = {
+						type = building_lead_mine
+						country = c:SCA
+						levels = 5
+						region = STATE_SVEALAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					country = {
+						country = c:SCA
+						levels = 5
+				}
+
 			}
 		}
+
 	}
 	s:STATE_SYRDARYA = {
 		region_state:V69 = {
@@ -48425,7 +48487,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 1
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -48437,7 +48499,7 @@
 					building = {
 						type = building_financial_district
 						country = c:SCA
-						levels = 1
+						levels = 4
 						region = STATE_SVEALAND
 					}
 				}
@@ -48450,7 +48512,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 2
+						levels = 8
 						region = STATE_UUSIMAA
 					}
 				}
@@ -50451,7 +50513,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:SCA
-						levels = 2
+						levels = 25
 						region = STATE_WESTERN_NORWAY
 					}
 				}
@@ -51538,7 +51600,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:SCA
-						levels = 1
+						levels = 3
 						region = STATE_WEST_KARELIA
 					}
 				}
@@ -53370,7 +53432,32 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
+
 			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:SCA
+						levels = 8
+						region = STATE_ZEALAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_pot_stills" }
+			}
+			create_building = {
+				building = "building_explosives_factory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:SCA
+						levels = 2
+						region = STATE_ZEALAND
+
+			}
+
 		}
 	}
 	s:STATE_ZHEJIANG = {
