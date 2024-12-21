@@ -6945,7 +6945,7 @@
 					building = {
 						type = building_financial_district
 						country = c:PRU
-						levels = 1
+						levels = 3
 						region = STATE_BRANDENBURG
 					}
 				}
@@ -15061,7 +15061,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PRU
-						levels = 6
+						levels = 20
 						region = STATE_EAST_PRUSSIA
 					}
 				}
@@ -37847,7 +37847,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PRU
-						levels = 8
+						levels = 15
 						region = STATE_POMERANIA
 					}
 				}
@@ -41238,7 +41238,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 2
+						levels = 25
 						region = STATE_SCHLESWIG_HOLSTEIN
 					}
 				}
@@ -48512,7 +48512,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SCA
-						levels = 8
+						levels = 15
 						region = STATE_UUSIMAA
 					}
 				}
@@ -51721,7 +51721,7 @@
 					building = {
 						type = building_financial_district
 						country = c:PRU
-						levels = 1
+						levels = 4
 						region = STATE_WEST_PRUSSIA
 					}
 				}
@@ -53416,7 +53416,7 @@
 				add_ownership = {
 					country = {
 						country = c:SCA
-						levels = 3
+						levels = 5
 					}
 				}
 				reserves = 1
