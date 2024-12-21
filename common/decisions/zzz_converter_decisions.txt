@@ -179,7 +179,7 @@ zzz_SWABIA_PUPPET = {
         }
     }
 }
-zzz_SWABIA_PUPPET = {
+Find_the_german = {
     is_shown = {
         exists = c:RHN
         this = c:RHN
