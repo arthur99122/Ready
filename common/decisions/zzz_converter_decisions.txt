@@ -183,12 +183,15 @@ Find_the_german = {
     is_shown = {
         exists = c:RHN
         this = c:RHN
+        NOT = { has_country_flag = Found_the_german } 
     }
     possible = {
         #has_technology_researched = nationalism
         this = c:RHN
         is_at_war = no
+		NOT = { has_country_flag = Found_the_german } 
     }
+    set_country_flag = Found_the_german 
 
     when_taken = {	
         every_scope_state = {
