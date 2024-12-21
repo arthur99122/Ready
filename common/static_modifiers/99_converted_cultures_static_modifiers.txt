@@ -5625,3 +5625,8 @@ Starting_Buff_1 = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_construction_add = 50
 }
+
+German_of_the_wood = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	state_birth_rate_mult = 0.1
+}

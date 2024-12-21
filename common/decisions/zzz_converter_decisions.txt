@@ -147,65 +147,71 @@ zzz_SWABIA_expansion = {
 	}
 }
 zzz_SWABIA_PUPPET = {
-	is_shown = {
-		exists = c:V39
-		this = c:V39
-	}
-	possible = {
-		#has_technology_researched = nationalism
-		this =  c:V39
-		is_at_war = no	}
+    is_shown = {
+        exists = c:V39
+        this = c:V39
+    }
+    possible = {
+        #has_technology_researched = nationalism
+        this = c:V39
+        is_at_war = no
+    }
 
-	when_taken = {
-	create_diplomatic_pact = {
-	country = c:X90
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:X93
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:X91
-	type = puppet
-	}	
-	create_diplomatic_pact = {
-	country = c:X89
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:WES
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:SAX
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:W74
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:X88
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:V28
-	type = puppet
-	}
-	create_diplomatic_pact = {
-	country = c:ANH
-	type = puppet
-	}		
-	}
+    when_taken = {
+        # Create diplomatic pacts
+        create_diplomatic_pact = { country = c:X90 type = puppet }
+        create_diplomatic_pact = { country = c:X93 type = puppet }
+        create_diplomatic_pact = { country = c:X91 type = puppet }
+        create_diplomatic_pact = { country = c:X89 type = puppet }
+        create_diplomatic_pact = { country = c:WES type = puppet }
+        create_diplomatic_pact = { country = c:SAX type = puppet }
+        create_diplomatic_pact = { country = c:W74 type = puppet }
+        create_diplomatic_pact = { country = c:X88 type = puppet }
+        create_diplomatic_pact = { country = c:V28 type = puppet }
+        create_diplomatic_pact = { country = c:ANH type = puppet }
+    }
 
-	ai_chance = {
-		base = 100
-		modifier = {
-			is_diplomatic_play_undecided_participant = yes
-			add = -1000
-		}
-	}
+    ai_chance = {
+        base = 100
+        modifier = {
+            is_diplomatic_play_undecided_participant = yes
+            add = -1000
+        }
+    }
+}
+zzz_SWABIA_PUPPET = {
+    is_shown = {
+        exists = c:RHN
+        this = c:RHN
+    }
+    possible = {
+        #has_technology_researched = nationalism
+        this = c:RHN
+        is_at_war = no
+    }
+
+    when_taken = {
+        every_scope_state = {
+            limit = {
+                OR = {
+                    has_homeland = south_german
+                    has_homeland = north_german
+                }
+            }
+            add_state_modifier  = {
+                name = German_of_the_wood # The modifier you want
+                is_decaying = no # Optional, set to yes if you want it to decay
+                months = 120 # Optional, sets the duration of the modifier
+            }
+        }
+    ai_chance = {
+        base = 100
+        modifier = {
+            is_diplomatic_play_undecided_participant = yes
+            add = -1000
+        }
+    }
+}
 }
 
 zzz_annex_puppet_france ={
@@ -219,8 +225,16 @@ zzz_annex_puppet_france ={
 	when_taken = {
 		annex = c:BRI
 		annex = c:V21
+		every_scope_state = {
+			limit = {
+				is_incorporated = no
+				owner = ROOT
+			}
+			set_state_type = incorporated
+		}
 	}
 }
+
 unincorporate_states_decision = {
 
 	is_shown = {

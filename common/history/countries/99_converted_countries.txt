@@ -5759,7 +5759,6 @@
 		add_technology_researched = tech_bureaucracy
 		add_technology_researched = urban_planning
 		add_technology_researched = urbanization
-		add_technology_researched = nationalism
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_autocracy
 		activate_law = law_type:law_colonial_exploitation
@@ -5798,7 +5797,7 @@
 			level = 3
 		}
 		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
-			name = Starting_Buff # the modifier you want
+			name = Starting_Buff  # the modifier you want
     		is_decaying = no # Optional, if yes, it will decay, default is no
     		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
