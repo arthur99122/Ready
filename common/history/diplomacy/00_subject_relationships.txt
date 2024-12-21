@@ -477,7 +477,7 @@
 		}
 	}
 	c:PRU = {
-		add_liberty_desire = 50
+		add_liberty_desire = -500
 	}
 	c:SCA = {
 		create_diplomatic_pact = {

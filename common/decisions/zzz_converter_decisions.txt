@@ -190,20 +190,19 @@ Find_the_german = {
         is_at_war = no
     }
 
-    when_taken = {
+    when_taken = {	
         every_scope_state = {
             limit = {
-                OR = {
-                    has_homeland = south_german
-                    has_homeland = north_german
-                }
+
+				owner = root
             }
-            add_state_modifier  = {
+            add_modifier  = {
                 name = German_of_the_wood # The modifier you want
                 is_decaying = no # Optional, set to yes if you want it to decay
                 months = 120 # Optional, sets the duration of the modifier
             }
         }
+	}	
     ai_chance = {
         base = 100
         modifier = {
@@ -211,7 +210,7 @@ Find_the_german = {
             add = -1000
         }
     }
-}
+
 }
 
 zzz_annex_puppet_france ={

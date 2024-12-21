@@ -7418,7 +7418,7 @@
 				size = 623875
 			}
 		}
-		region_state:X77 = {
+		region_state:X77	 = {
 			create_pop = {
 				culture = north_german
 				religion = orthodox
@@ -53320,7 +53320,7 @@
 		}
 	}
 	s:STATE_TYROL = {
-		region_state:X83 = {
+		region_state:X85 = {
 			create_pop = {
 				culture = south_german
 				religion = catholic
@@ -53332,21 +53332,21 @@
 				size = 66382
 			}
 		}
-		region_state:X83 = {
+		region_state:X85 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
 				size = 536261
 			}
 		}
-		region_state:X83 = {
+		region_state:X85 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
 				size = 98785
 			}
 		}
-		region_state:X83 = {
+		region_state:X80 = {
 			create_pop = {
 				culture = south_german
 				religion = orthodox
