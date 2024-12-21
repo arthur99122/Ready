@@ -44504,7 +44504,6 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
-
 			}
 			create_building = {
 				building = "building_lead_mine"
@@ -44525,11 +44524,10 @@
 					country = {
 						country = c:SCA
 						levels = 5
+					}
 				}
-
 			}
 		}
-
 	}
 	s:STATE_SYRDARYA = {
 		region_state:V69 = {
@@ -53456,8 +53454,10 @@
 						levels = 2
 						region = STATE_ZEALAND
 
-			}
+					}
 
+					}
+			}
 		}
 	}
 	s:STATE_ZHEJIANG = {
