@@ -9890,7 +9890,7 @@ V72 = {
 
 V73 = {
 	color = { 164 16 16 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { nilotic }
 	religion = oriental_orthodox
@@ -10507,7 +10507,7 @@ W42 = {
 
 W43 = {
 	color = { 229 228 226 }
-	country_type = decentralized
+	country_type = unrecognized
 	tier = principality
 	cultures = { malagasy }
 	religion = norse_pagan_reformed
@@ -10534,7 +10534,7 @@ W45 = {
 
 W46 = {
 	color = { 123 63 0 }
-	country_type = decentralized
+	country_type = recognised
 	tier = principality
 	cultures = { lunda }
 	religion = norse_pagan_reformed
