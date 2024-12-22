@@ -109,12 +109,12 @@ STATE_KUOPIO = {
     farm = "xB81268"
     mine = "x51CC44"
     wood = "xED8DC6"
-    arable_land = 25
+    arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     traits = { "state_trait_scandinavian_forests" }
     capped_resources = {
         bg_logging = 42
-        bg_iron_mining = 11
+        bg_iron_mining = 30
     }
     naval_exit_id = 3000
 }
@@ -129,13 +129,13 @@ STATE_UUSIMAA = {
     farm = "x22CBD6"
     mine = "xAFE141"
     wood = "x61C0E0"
-    arable_land = 32
+    arable_land = 140
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 5
-        bg_lead_mining = 5
+        bg_iron_mining = 20
+        bg_lead_mining = 30
         bg_logging = 36
-        bg_fishing = 8
+        bg_fishing = 20
     }
     naval_exit_id = 3000
 }
@@ -150,12 +150,12 @@ STATE_WEST_KARELIA = {
     farm = "x3CFB81"
     mine = "xAD3FF9"
     wood = "x934610"
-    arable_land = 22
+    arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 18
+        bg_iron_mining = 25
         bg_logging = 28
-        bg_fishing = 2
+        bg_fishing = 10
     }
     naval_exit_id = 3000
 }
@@ -167,11 +167,11 @@ STATE_ALAND = {
     city = "xE04161"
     port = "x459052"
     farm = "x459052"
-    arable_land = 2
+    arable_land = 20
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 2
-        bg_fishing = 2
+        bg_logging = 5
+        bg_fishing = 30
     }
     naval_exit_id = 3000
 }
@@ -186,12 +186,12 @@ STATE_OSTROBOTHNIA = {
     farm = "xC4EB7D"
     mine = "x993955"
     wood = "x3DBB6E"
-    arable_land = 15
+    arable_land = 90
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_lead_mining = 5
+        bg_lead_mining = 30
         bg_logging = 25
-        bg_fishing = 10
+        bg_fishing = 20
     }
     naval_exit_id = 3000
 }
@@ -207,7 +207,7 @@ STATE_OULU = {
     farm = "x0193AC"
     mine = "x73B911"
     wood = "x9AB681"
-    arable_land = 8
+    arable_land = 60
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 45
@@ -227,12 +227,12 @@ STATE_EAST_KARELIA = {
     farm = "xC16D56"
     mine = "xA857F6"
     wood = "xB7363A"
-    arable_land = 10
+    arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_iron_mining = 25
+        bg_iron_mining = 30
         bg_logging = 30
-        bg_fishing = 5
+        bg_fishing = 10
     }
     naval_exit_id = 3039
 }
@@ -248,13 +248,13 @@ STATE_KOLA = {
     farm = "x57190F"
     mine = "xE229D5"
     wood = "xA09A15"
-    arable_land = 2
+    arable_land = 50
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
         bg_iron_mining = 85
-        bg_sulfur_mining = 10
+        bg_sulfur_mining = 50
         bg_logging = 25
-        bg_fishing = 10
+        bg_fishing = 30
     }
     naval_exit_id = 3039
 }
@@ -269,11 +269,11 @@ STATE_INGRIA = {
     farm = "xDED975"
     mine = "xB64167"
     wood = "x80A0E0"
-    arable_land = 50
+    arable_land = 100
     arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
-        bg_logging = 25
-        bg_fishing = 10
+        bg_logging = 30
+        bg_fishing = 15
     }
     naval_exit_id = 3000
 }
