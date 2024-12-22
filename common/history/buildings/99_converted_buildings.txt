@@ -5794,6 +5794,19 @@
 				activate_production_methods = { "pm_general_training" }
 			}
 			create_building = {
+				building = "building_coal_mine"
+				add_ownership = {
+					building = {
+						type = building_coal_mine
+						country = c:W95
+						levels = 2
+						region = STATE_BENIN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_atmospheric_engine_pump_building_coal_mine" }
+			}
+			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
@@ -13804,7 +13817,23 @@
 				reserves = 1
 				activate_production_methods = { "pm_sulfite_pulping" }
 			}
+			
 		}
+		region_state:W48 = {
+		create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W48
+						levels = 5
+						region = STATE_EASTERN_MALI
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
+			}
+	    }
 	}
 	s:STATE_EASTERN_NEW_GUINEA = {
 		region_state:V22 = {
@@ -14638,7 +14667,7 @@
 					building = {
 						type = building_coal_mine
 						country = c:W95
-						levels = 1
+						levels = 2
 						region = STATE_EAST_HAUSALAND
 					}
 				}
@@ -17114,6 +17143,64 @@
 				activate_production_methods = { "pm_power_of_the_purse" }
 			}
 			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:W95
+						levels = 2
+						region = STATE_GAMBIA
+					}
+				}
+				add_ownership = {
+					building = {
+						type = building_logging_camp
+						country = c:W95
+						levels = 1
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_chemical_plants"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:W95
+						levels = 2
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_explosives_factory"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:W95
+						levels = 2
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_arms_industry"
+				add_ownership = {
+					country = {
+						country = c:W95
+						levels = 2
+					}
+				}
+				reserves = 1
+				activate_production_methods = {  }
+			}
+			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
 					building = {
@@ -17127,12 +17214,25 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_shipyards"
+				add_ownership = {
+					building = {
+						type = building_shipyards
+						country = c:W95
+						levels = 3
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_complex_shipbuilding" }
+			}
+			create_building = {
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
 						type = building_manor_house
 						country = c:W95
-						levels = 1
+						levels = 5
 						region = STATE_GAMBIA
 					}
 				}
@@ -17182,7 +17282,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 5
 						region = STATE_GAMBIA
 					}
 				}
@@ -17195,7 +17295,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_GAMBIA
 					}
 				}
@@ -17207,7 +17307,7 @@
 				add_ownership = {
 					country = {
 						country = c:W95
-						levels = 4
+						levels = 5
 					}
 				}
 				reserves = 1
@@ -17398,6 +17498,19 @@
 				activate_production_methods = { "pm_general_training" }
 			}
 			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W95
+						levels = 3
+						region = STATE_GHANA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
@@ -17468,7 +17581,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 2
 						region = STATE_GHANA
 					}
 				}
@@ -18739,7 +18852,7 @@
 					building = {
 						type = building_furniture_manufacturies
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_GUINEA
 					}
 				}
@@ -18752,7 +18865,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_GUINEA
 					}
 				}
@@ -18778,7 +18891,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 2
 						region = STATE_GAMBIA
 					}
 				}
@@ -19636,7 +19749,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 2
 						region = STATE_HAUSALAND
 					}
 				}
@@ -19649,7 +19762,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 2
 						region = STATE_HAUSALAND
 					}
 				}
@@ -26446,13 +26559,14 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			
 			create_building = {
 				building = "building_millet_farm"
 				add_ownership = {
 					building = {
 						type = building_manor_house
 						country = c:W95
-						levels = 1
+						levels = 4
 						region = STATE_LIBERIA
 					}
 				}
@@ -33216,6 +33330,19 @@
 				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W95
+						levels = 3
+						region = STATE_NIGER_DELTA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_port"
 				add_ownership = {
 					country = {
@@ -36259,7 +36386,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_GAMBIA
 					}
 				}
@@ -41508,12 +41635,25 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:W95
-						levels = 2
+						levels = 3
 						region = STATE_SENEGAL
 					}
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_shipyards"
+				add_ownership = {
+					building = {
+						type = building_shipyards
+						country = c:W95
+						levels = 1
+						region = STATE_SENEGAL
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_complex_shipbuilding" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -41534,7 +41674,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 4
 						region = STATE_SENEGAL
 					}
 				}
@@ -42525,13 +42665,15 @@
 					building = {
 						type = building_manor_house
 						country = c:W95
-						levels = 2
+						levels = 3
 						region = STATE_SIERRA_LEONE
 					}
 				}
 				reserves = 1
 				activate_production_methods = { "pm_simple_farming" }
 			}
+			
+
 			create_building = {
 				building = "building_port"
 				add_ownership = {
@@ -45918,6 +46060,32 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_sulfur_mine"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:W95
+						levels = 2
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_atmospheric_engine_pump_building_sulfur_mine" }
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W95
+						levels = 3
+						region = STATE_TOGO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_paper_mills"
 				add_ownership = {
 					building = {
@@ -45936,7 +46104,7 @@
 					building = {
 						type = building_tooling_workshops
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_TOGO
 					}
 				}
@@ -49610,7 +49778,7 @@
 					building = {
 						type = building_financial_district
 						country = c:W95
-						levels = 1
+						levels = 3
 						region = STATE_GAMBIA
 					}
 				}
@@ -49624,6 +49792,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W95
+						levels = 3
+						region = STATE_VOLTA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_millet_farm"
@@ -53021,6 +53202,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_general_training" }
+			}
+			create_building = {
+				building = "building_steel_mills"
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:W95
+						levels = 2
+						region = STATE_GAMBIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
