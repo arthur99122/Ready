@@ -52805,7 +52805,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V39
-						levels = 15
+						levels = 30
 						region = STATE_WURTTEMBERG
 					}
 				}
@@ -52854,7 +52854,7 @@
 				add_ownership = {
 					country = {
 						country = c:V39
-						levels = 2
+						levels = 5
 					}
 				}
 				reserves = 1
