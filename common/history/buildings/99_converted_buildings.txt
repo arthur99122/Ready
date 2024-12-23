@@ -305,7 +305,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V22
-						levels = 1
+						levels = 30
 						region = STATE_ACEH
 					}
 				}
@@ -642,7 +642,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V69
-						levels = 1
+						levels = 20
 						region = STATE_AKMOLINSK
 					}
 				}
@@ -1097,7 +1097,7 @@
 					building = {
 						type = building_manor_house
 						country = c:W27
-						levels = 1
+						levels = 10
 						region = STATE_ALEPPO
 					}
 				}
@@ -3504,7 +3504,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BYZ
-						levels = 1
+						levels = 5
 						region = STATE_ATTICA
 					}
 				}
@@ -8077,7 +8077,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 25
 						region = STATE_BUSAN
 					}
 				}
@@ -9283,6 +9283,19 @@
 						type = building_fishing_wharf
 						country = c:SLW
 						levels = 5
+						region = STATE_CELEBES
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:SLW
+						levels = 30
 						region = STATE_CELEBES
 					}
 				}
@@ -10741,7 +10754,7 @@
 					building = {
 						type = building_manor_house
 						country = c:SIA
-						levels = 3
+						levels = 10
 						region = STATE_CHIANG_MAI
 					}
 				}
@@ -13544,7 +13557,7 @@
 					building = {
 						type = building_manor_house
 						country = c:W29
-						levels = 1
+						levels = 10
 						region = STATE_DZUNGARIA
 					}
 				}
@@ -14065,7 +14078,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BYZ
-						levels = 3
+						levels = 20
 						region = STATE_EASTERN_THRACE
 					}
 				}
@@ -14474,6 +14487,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:BRU
+						levels = 20
+						region = STATE_EAST_BORNEO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -15997,6 +16023,19 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:PER
+						levels = 20
+						region = STATE_FARS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -16163,7 +16202,7 @@
 					building = {
 						type = building_manor_house
 						country = c:W29
-						levels = 1
+						levels = 10
 						region = STATE_FERGANA
 					}
 				}
@@ -16464,7 +16503,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 5
 						region = STATE_FORMOSA
 					}
 				}
@@ -22277,6 +22316,19 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:PER
+						levels = 15
+						region = STATE_FARS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
@@ -24074,6 +24126,19 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:PER
+						levels = 15
+						region = STATE_FARS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -24329,6 +24394,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_hardwood" "pm_simple_forestry" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:PER
+						levels = 10
+						region = STATE_FARS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_opium_plantation"
@@ -24622,6 +24700,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W29
+						levels = 10
+						region = STATE_DZUNGARIA
+					}
+				}
 			}
 		}
 	}
@@ -25731,7 +25820,7 @@
 					building = {
 						type = building_manor_house
 						country = c:CMI
-						levels = 7
+						levels = 35
 						region = STATE_LAOS
 					}
 				}
@@ -26661,6 +26750,19 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X07
+						levels = 5
+						region = STATE_LIBYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_naval_base"
 				add_ownership = {
 					country = {
@@ -27150,6 +27252,19 @@
 					country = {
 						country = c:X07
 						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X07
+						levels = 10
+						region = STATE_LOWER_EGYPT
 					}
 				}
 				reserves = 1
@@ -27755,6 +27870,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:BYZ
+						levels = 10
+						region = STATE_EASTERN_THRACE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_cotton_plantation"
@@ -28456,6 +28584,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W59
+						levels = 25
+						region = STATE_MALAYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
@@ -29992,6 +30133,19 @@
 						country = c:X07
 						levels = 1
 						region = STATE_MIDDLE_EGYPT
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X07
+						levels = 10
+						region = STATE_MIDDLE_EGYPT_EGYPT
 					}
 				}
 				reserves = 1
@@ -32348,6 +32502,19 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:SYR
+						levels = 35
+						region = STATE_NEJD
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_textile_mills"
 				add_ownership = {
 					building = {
@@ -34200,7 +34367,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BYZ
-						levels = 1
+						levels = 10
 						region = STATE_NORTHERN_THRACE
 					}
 				}
@@ -34455,6 +34622,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:BRU
+						levels = 20
+						region = STATE_NORTH_BORNEO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -34905,7 +35085,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V22
-						levels = 5
+						levels = 20
 						region = STATE_NORTH_SUMATRA
 					}
 				}
@@ -36112,7 +36292,23 @@
 				activate_production_methods = { }
 			}
 		}
+		region_state:V73 = {
+		create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:V73
+						levels = 15
+						region = STATE_OROMIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
+			}
+	    }
 	}
+	
 	s:STATE_ORYOL = {
 		region_state:UKR = {
 			create_building = {
@@ -36451,12 +36647,25 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 3
+						levels = 10
 						region = STATE_OUTER_MANCHURIA
 					}
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KOR
+						levels = 25
+						region = STATE_OUTER_MANCHURIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_paper_mills"
@@ -38716,7 +38925,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 35
 						region = STATE_PYONGYANG
 					}
 				}
@@ -40947,7 +41156,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 25
 						region = STATE_SARIWON
 					}
 				}
@@ -41568,6 +41777,19 @@
 				activate_production_methods = { "pm_picks_and_shovels_building_iron_mine" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:PER
+						levels = 15
+						region = STATE_FARS
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -41723,7 +41945,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:KOR
-						levels = 1
+						levels = 10
 						region = STATE_SEOUL
 					}
 				}
@@ -41768,7 +41990,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 30
 						region = STATE_SEOUL
 					}
 				}
@@ -45057,6 +45279,17 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W29
+						levels = 10
+						region = STATE_DZUNGARIA
+					}
+				}
+			}
+			create_building = {
 				building = "building_opium_plantation"
 				add_ownership = {
 					building = {
@@ -45749,7 +45982,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BYZ
-						levels = 1
+						levels = 5
 						region = STATE_THESSALIA
 					}
 				}
@@ -45975,6 +46208,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:V69
+						levels = 15
+						region = STATE_TOBOLSK
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -46370,6 +46616,19 @@
 				activate_production_methods = { "pm_picks_and_shovels_building_coal_mine" }
 			}
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:V69
+						levels = 15
+						region = STATE_TOMSK
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -46506,7 +46765,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V50
-						levels = 4
+						levels = 15
 						region = STATE_TONKIN
 					}
 				}
@@ -48777,6 +49036,17 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W29
+						levels = 10
+						region = STATE_DZUNGARIA
+					}
+				}
+			}
+			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
@@ -50783,7 +51053,7 @@
 					building = {
 						type = building_manor_house
 						country = c:BYZ
-						levels = 1
+						levels = 10
 						region = STATE_WESTERN_THRACE
 					}
 				}
@@ -52327,7 +52597,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V39
-						levels = 2
+						levels = 15
 						region = STATE_WURTTEMBERG
 					}
 				}
@@ -52601,7 +52871,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:KOR
-						levels = 5
+						levels = 10
 						region = STATE_YANGHO
 					}
 				}
@@ -52648,7 +52918,7 @@
 					building = {
 						type = building_manor_house
 						country = c:KOR
-						levels = 2
+						levels = 25
 						region = STATE_YANGHO
 					}
 				}
@@ -52912,6 +53182,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MAH
+						levels = 35
+						region = STATE_YEMEN
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 			create_building = {
 				building = "building_lead_mine"

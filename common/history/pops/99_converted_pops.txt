@@ -351,12 +351,12 @@
 			create_pop = {
 				culture = hindustani
 				religion = hindu
-				size = 385446
+				size = 1385446
 			}
 			create_pop = {
 				culture = hindustani
 				religion = sikh
-				size = 1390197
+				size = 2390197
 			}
 			create_pop = {
 				culture = avadhi
@@ -1638,7 +1638,7 @@
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
-				size = 89383
+				size = 1689383
 			}
 			create_pop = {
 				culture = han
@@ -3201,17 +3201,17 @@
 			create_pop = {
 				culture = basque
 				religion = sunni
-				size = 300257
+				size = 356
 			}
 			create_pop = {
 				culture = basque
 				religion = orthodox
-				size = 204474
+				size = 20000
 			}
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 551421
+				size = 1051421
 			}
 			create_pop = {
 				culture = sephardic
@@ -3221,7 +3221,7 @@
 			create_pop = {
 				culture = dynamic-occitain-culture-num2
 				religion = orthodox
-				size = 300074
+				size = 200074
 			}
 			create_pop = {
 				culture = dynamic-occitain-culture-num2
@@ -3231,7 +3231,7 @@
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 1402772
+				size = 1202772
 			}
 			create_pop = {
 				culture = sephardic
@@ -3256,17 +3256,17 @@
 			create_pop = {
 				culture = basque
 				religion = sunni
-				size = 495060
+				size = 295060
 			}
 			create_pop = {
 				culture = basque
 				religion = orthodox
-				size = 200533
+				size = 100533
 			}
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 582887
+				size = 482887
 			}
 			create_pop = {
 				culture = sephardic
@@ -5961,7 +5961,7 @@
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
-				size = 140682
+				size = 3140682
 			}
 			create_pop = {
 				culture = mongol
@@ -7888,7 +7888,7 @@
 			create_pop = {
 				culture = breton
 				religion = orthodox
-				size = 2522149
+				size = 1022149
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -7898,7 +7898,7 @@
 			create_pop = {
 				culture = breton
 				religion = orthodox
-				size = 1036261
+				size = 636261
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -7908,7 +7908,7 @@
 			create_pop = {
 				culture = breton
 				religion = orthodox
-				size = 836261
+				size = 536261
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -7918,7 +7918,7 @@
 			create_pop = {
 				culture = breton
 				religion = orthodox
-				size = 822149
+				size = 522149
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -7928,7 +7928,7 @@
 			create_pop = {
 				culture = breton
 				religion = orthodox
-				size = 829078
+				size = 529078
 			}
 			create_pop = {
 				culture = breton
@@ -10311,7 +10311,7 @@
 			create_pop = {
 				culture = hindustani
 				religion = sikh
-				size = 1190197
+				size = 2190197
 			}
 		}
 	}
@@ -11058,7 +11058,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 777226
+				size = 5777226
 			}
 			create_pop = {
 				culture = han
@@ -11075,7 +11075,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 982699
+				size = 4982699
 			}
 			create_pop = {
 				culture = yi
@@ -12724,7 +12724,7 @@
 			create_pop = {
 				culture = hindustani
 				religion = sikh
-				size = 1190197
+				size = 2190197
 			}
 			create_pop = {
 				culture = hindustani
@@ -13246,7 +13246,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 23840
+				size = 2223840
 			}
 			create_pop = {
 				culture = mongol
@@ -13422,7 +13422,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 1384712
+				size = 5384712
 			}
 			create_pop = {
 				culture = han
@@ -13766,7 +13766,7 @@
 			create_pop = {
 				culture = dynamic-chihan-swedish-culture-num2
 				religion = nestorian
-				size = 674694
+				size = 1474694
 			}
 		}
 	}
@@ -14644,7 +14644,7 @@
 			create_pop = {
 				culture = dynamic-chihan-sapmi-swedish-culture-num1
 				religion = nestorian
-				size = 123946
+				size = 1123946
 			}
 			create_pop = {
 				culture = dynamic-vepsian-culture-num1
@@ -15255,7 +15255,7 @@
 			create_pop = {
 				culture = berber
 				religion = orthodox
-				size = 163934
+				size = 63934
 			}
 			create_pop = {
 				culture = berber
@@ -16748,7 +16748,7 @@
 			create_pop = {
 				culture = min
 				religion = confucian
-				size = 2848695
+				size = 4848695
 			}
 			create_pop = {
 				culture = min
@@ -18367,7 +18367,7 @@
 			create_pop = {
 				culture = yue
 				religion = confucian
-				size = 2689166
+				size = 5689166
 			}
 			create_pop = {
 				culture = yue
@@ -18443,7 +18443,7 @@
 			create_pop = {
 				culture = han
 				religion = animist
-				size = 781692
+				size = 4781692
 			}
 		}
 		region_state:W31 = {
@@ -18455,7 +18455,7 @@
 			create_pop = {
 				culture = yue
 				religion = confucian
-				size = 233182
+				size = 2233182
 			}
 			create_pop = {
 				culture = yue
@@ -18470,7 +18470,7 @@
 			create_pop = {
 				culture = yue
 				religion = confucian
-				size = 116934
+				size = 1116934
 			}
 			create_pop = {
 				culture = yue
@@ -18512,7 +18512,7 @@
 			create_pop = {
 				culture = yue
 				religion = confucian
-				size = 23183
+				size = 1123183
 			}
 			create_pop = {
 				culture = yue
@@ -19015,7 +19015,7 @@
 			create_pop = {
 				culture = yi
 				religion = theravada
-				size = 64921
+				size = 164921
 			}
 			create_pop = {
 				culture = yi
@@ -19035,7 +19035,7 @@
 			create_pop = {
 				culture = han
 				religion = animist
-				size = 198337
+				size = 1698337
 			}
 			create_pop = {
 				culture = yi
@@ -19045,7 +19045,7 @@
 			create_pop = {
 				culture = han
 				religion = animist
-				size = 29829
+				size = 1129829
 			}
 			create_pop = {
 				culture = han
@@ -19290,12 +19290,12 @@
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 108203
+				size = 508203
 			}
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 417756
+				size = 217756
 			}
 			create_pop = {
 				culture = occitan
@@ -19320,12 +19320,12 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 229567
+				size = 129567
 			}
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 196826
+				size = 106826
 			}
 			create_pop = {
 				culture = french
@@ -19335,12 +19335,12 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 341270
+				size = 101270
 			}
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 205073
+				size = 105073
 			}
 			create_pop = {
 				culture = french
@@ -19350,7 +19350,7 @@
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 148150
+				size = 108150
 			}
 			create_pop = {
 				culture = french
@@ -20329,7 +20329,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 804384
+				size = 5804384
 			}
 			create_pop = {
 				culture = han
@@ -21503,7 +21503,7 @@
 			create_pop = {
 				culture = dynamic-georgian-greek-norse-culture-num1
 				religion = orthodox
-				size = 405027
+				size = 1405027
 			}
 			create_pop = {
 				culture = dynamic-georgian-greek-norse-culture-num1
@@ -23621,7 +23621,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 2027367
+				size = 5527367
 			}
 			create_pop = {
 				culture = han
@@ -23650,7 +23650,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 848695
+				size = 4848695
 			}
 			create_pop = {
 				culture = han
@@ -23667,12 +23667,12 @@
 			create_pop = {
 				culture = hakka
 				religion = confucian
-				size = 580686
+				size = 1580686
 			}
 			create_pop = {
 				culture = min
 				religion = confucian
-				size = 142938
+				size = 1142938
 			}
 			create_pop = {
 				culture = hakka
@@ -26066,7 +26066,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 75759
+				size = 1275759
 			}
 			create_pop = {
 				culture = mongol
@@ -26628,7 +26628,7 @@
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num1
 				religion = nestorian
-				size = 80991
+				size = 880991
 			}
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num1
@@ -26916,12 +26916,12 @@
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 107688
+				size = 34123
 			}
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 1105207
+				size = 605207
 			}
 			create_pop = {
 				culture = sephardic
@@ -26931,12 +26931,12 @@
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 615563
+				size = 200000
 			}
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 348352
+				size = 248352
 			}
 			create_pop = {
 				culture = sephardic
@@ -26946,7 +26946,7 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 239350
+				size = 56753
 			}
 			create_pop = {
 				culture = occitan
@@ -26986,12 +26986,12 @@
 			create_pop = {
 				culture = occitan
 				religion = orthodox
-				size = 436955
+				size = 236955
 			}
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 328737
+				size = 228737
 			}
 			create_pop = {
 				culture = sephardic
@@ -27001,7 +27001,7 @@
 			create_pop = {
 				culture = occitan
 				religion = catholic
-				size = 214188
+				size = 114188
 			}
 			create_pop = {
 				culture = occitan
@@ -27011,7 +27011,7 @@
 			create_pop = {
 				culture = french
 				religion = orthodox
-				size = 345556
+				size = 545556
 			}
 			create_pop = {
 				culture = sephardic
@@ -27107,7 +27107,7 @@
 			create_pop = {
 				culture = lao
 				religion = theravada
-				size = 2125597
+				size = 1125597
 			}
 			create_pop = {
 				culture = lao
@@ -27127,7 +27127,7 @@
 			create_pop = {
 				culture = lao
 				religion = theravada
-				size = 1191548
+				size = 691548
 			}
 			create_pop = {
 				culture = lao
@@ -27137,7 +27137,7 @@
 			create_pop = {
 				culture = thai
 				religion = theravada
-				size = 481802
+				size = 381802
 			}
 			create_pop = {
 				culture = thai
@@ -27147,7 +27147,7 @@
 			create_pop = {
 				culture = lao
 				religion = theravada
-				size = 765216
+				size = 465216
 			}
 			create_pop = {
 				culture = lao
@@ -27157,7 +27157,7 @@
 			create_pop = {
 				culture = lao
 				religion = animist
-				size = 877577
+				size = 377577
 			}
 			create_pop = {
 				culture = lao
@@ -27187,7 +27187,7 @@
 			create_pop = {
 				culture = lao
 				religion = animist
-				size = 620616
+				size = 320616
 			}
 			create_pop = {
 				culture = lao
@@ -36479,12 +36479,12 @@
 			create_pop = {
 				culture = dynamic-danish-chihan-culture-num1
 				religion = norse_pagan_reformed
-				size = 535698
+				size = 1535698
 			}
 			create_pop = {
 				culture = dynamic-danish-chihan-culture-num1
 				religion = gelugpa
-				size = 491669
+				size = 1491669
 			}
 			create_pop = {
 				culture = han
@@ -36494,7 +36494,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 312677
+				size = 1312677
 			}
 			create_pop = {
 				culture = tibetan
@@ -36797,7 +36797,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 982699
+				size = 4982699
 			}
 		}
 	}
@@ -40273,7 +40273,7 @@
 			create_pop = {
 				culture = dynamic-chihan-sapmi-swedish-culture-num1
 				religion = nestorian
-				size = 355146
+				size = 655146
 			}
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num1
@@ -41625,7 +41625,7 @@
 			create_pop = {
 				culture = greek
 				religion = orthodox
-				size = 112897
+				size = 1112897
 			}
 			create_pop = {
 				culture = greek
@@ -42583,12 +42583,12 @@
 			create_pop = {
 				culture = north_italian
 				religion = catholic
-				size = 374876
+				size = 274876
 			}
 			create_pop = {
 				culture = north_italian
 				religion = orthodox
-				size = 1944020
+				size = 644020
 			}
 			create_pop = {
 				culture = sephardic
@@ -42638,7 +42638,7 @@
 			create_pop = {
 				culture = north_italian
 				religion = orthodox
-				size = 301516
+				size = 101516
 			}
 			create_pop = {
 				culture = sephardic
@@ -42829,7 +42829,7 @@
 			create_pop = {
 				culture = hindustani
 				religion = sikh
-				size = 1338128
+				size = 3338128
 			}
 			create_pop = {
 				culture = hindustani
@@ -46738,7 +46738,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 1072035
+				size = 8072035
 			}
 			create_pop = {
 				culture = han
@@ -46767,7 +46767,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 580686
+				size = 7080686
 			}
 			create_pop = {
 				culture = han
@@ -47668,7 +47668,7 @@
 			create_pop = {
 				culture = dynamic-bulgarian-georgian-greek-norse-culture-num1
 				religion = orthodox
-				size = 102019
+				size = 1102019
 			}
 			create_pop = {
 				culture = sephardic
@@ -50139,7 +50139,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 172611
+				size = 672611
 			}
 			create_pop = {
 				culture = mongol
@@ -51275,7 +51275,7 @@
 			create_pop = {
 				culture = dynamic-greek-romanian-culture-num1
 				religion = orthodox
-				size = 198894
+				size = 1198894
 			}
 			create_pop = {
 				culture = sephardic
@@ -51324,7 +51324,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 38838
+				size = 1238838
 			}
 			create_pop = {
 				culture = mongol
@@ -53246,7 +53246,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 59589
+				size = 1159589
 			}
 		}
 	}
@@ -54420,7 +54420,7 @@
 			create_pop = {
 				culture = mongol
 				religion = tengri_pagan_reformed
-				size = 107155
+				size = 1107155
 			}
 			create_pop = {
 				culture = mongol
@@ -54787,7 +54787,7 @@
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num2
 				religion = nestorian
-				size = 610467
+				size = 1610467
 			}
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num2
@@ -54826,7 +54826,7 @@
 			create_pop = {
 				culture = mongol
 				religion = sunni
-				size = 86579
+				size = 686579
 			}
 			create_pop = {
 				culture = mongol
@@ -56675,7 +56675,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 158057
+				size = 2158057
 			}
 			create_pop = {
 				culture = han
@@ -56687,14 +56687,14 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 670022
+				size = 2670022
 			}
 		}
 		region_state:W31 = {
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 357345
+				size = 1857345
 			}
 		}
 	}
@@ -56853,7 +56853,7 @@
 			create_pop = {
 				culture = dynamic-chihan-swedish-culture-num2
 				religion = nestorian
-				size = 81297
+				size = 881297
 			}
 			create_pop = {
 				culture = norwegian
@@ -56937,7 +56937,7 @@
 			create_pop = {
 				culture = dynamic-georgian-greek-norse-culture-num1
 				religion = orthodox
-				size = 127009
+				size = 1127009
 			}
 		}
 	}
@@ -57633,7 +57633,7 @@
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num1
 				religion = nestorian
-				size = 146548
+				size = 1646548
 			}
 			create_pop = {
 				culture = dynamic-finnish-chihan-swedish-culture-num1
@@ -58317,7 +58317,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 134004
+				size = 4134004
 			}
 			create_pop = {
 				culture = han
@@ -59387,7 +59387,7 @@
 			create_pop = {
 				culture = yi
 				religion = theravada
-				size = 242697
+				size = 2242697
 			}
 			create_pop = {
 				culture = yi
@@ -59831,7 +59831,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 2608053
+				size = 4008053
 			}
 			create_pop = {
 				culture = han
