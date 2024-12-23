@@ -1623,7 +1623,7 @@
 			create_pop = {
 				culture = mongol
 				religion = nestorian
-				size = 76539
+				size = 576539
 			}
 			create_pop = {
 				culture = mongol
@@ -18450,7 +18450,7 @@
 			create_pop = {
 				culture = zhuang
 				religion = confucian
-				size = 346821
+				size = 1346821
 			}
 			create_pop = {
 				culture = yue
@@ -18512,7 +18512,7 @@
 			create_pop = {
 				culture = yue
 				religion = confucian
-				size = 1123183
+				size = 2123183
 			}
 			create_pop = {
 				culture = yue
@@ -34504,7 +34504,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 1116703
+				size = 6116703
 			}
 			create_pop = {
 				culture = han
@@ -36797,7 +36797,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 4982699
+				size = 5982699
 			}
 		}
 	}
@@ -47033,7 +47033,7 @@
 			create_pop = {
 				culture = tibetan
 				religion = hindu
-				size = 155911
+				size = 1155911
 			}
 			create_pop = {
 				culture = tibetan
@@ -47085,7 +47085,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 518151
+				size = 1518151
 			}
 			create_pop = {
 				culture = han
@@ -47179,7 +47179,7 @@
 			create_pop = {
 				culture = han
 				religion = animist
-				size = 11209
+				size = 1111209
 			}
 			create_pop = {
 				culture = han
@@ -48333,7 +48333,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 670022
+				size = 5670022
 			}
 			create_pop = {
 				culture = han
@@ -49543,7 +49543,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 1027368
+				size = 6027368
 			}
 			create_pop = {
 				culture = han
@@ -56675,7 +56675,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 2158057
+				size = 4158057
 			}
 			create_pop = {
 				culture = han
@@ -56687,14 +56687,14 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 2670022
+				size = 4670022
 			}
 		}
 		region_state:W31 = {
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 1857345
+				size = 2857345
 			}
 		}
 	}
@@ -59860,7 +59860,7 @@
 			create_pop = {
 				culture = han
 				religion = confucian
-				size = 122837
+				size = 3122837
 			}
 			create_pop = {
 				culture = han
