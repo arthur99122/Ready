@@ -1397,6 +1397,19 @@
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W35
+						levels = 2
+						region = STATE_ALTO_PARAGUAY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -1432,6 +1445,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W36
+						levels = 1
+						region = STATE_ALTO_PARAGUAY
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
 			}
 		}
 	}
@@ -11011,7 +11037,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 3
+						levels = 10
 						region = STATE_CHUBU
 					}
 				}
@@ -11886,6 +11912,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W36
+						levels = 3
+						region = STATE_CORRIENTES
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_citrus_orchards" }
 			}
 			create_building = {
 				building = "building_barracks"
@@ -16028,7 +16067,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PER
-						levels = 20
+						levels = 25
 						region = STATE_FARS
 					}
 				}
@@ -20668,6 +20707,19 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:JAP
+						levels = 5
+						region = STATE_HOKKAIDO
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -23546,7 +23598,7 @@
 					building = {
 						type = building_fishing_wharf
 						country = c:JAP
-						levels = 1
+						levels = 10
 						region = STATE_KANSAI
 					}
 				}
@@ -23581,7 +23633,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 2
+						levels = 15
 						region = STATE_KANSAI
 					}
 				}
@@ -24131,7 +24183,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PER
-						levels = 15
+						levels = 20
 						region = STATE_FARS
 					}
 				}
@@ -24401,7 +24453,7 @@
 					building = {
 						type = building_manor_house
 						country = c:PER
-						levels = 10
+						levels = 15
 						region = STATE_FARS
 					}
 				}
@@ -26349,6 +26401,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W27
+						levels = 5
+						region = STATE_LEBANON
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
 				building = "building_naval_base"
@@ -28718,6 +28783,19 @@
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W81
+						levels = 15
+						region = STATE_MALAYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_naval_base"
 				add_ownership = {
 					country = {
@@ -30145,7 +30223,7 @@
 						type = building_manor_house
 						country = c:X07
 						levels = 10
-						region = STATE_MIDDLE_EGYPT_EGYPT
+						region = STATE_MIDDLE_EGYPT
 					}
 				}
 				reserves = 1
@@ -35138,6 +35216,19 @@
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W81
+						levels = 15
+						region = STATE_MALAYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_sugar_plantation"
 				add_ownership = {
 					building = {
@@ -36299,7 +36390,7 @@
 					building = {
 						type = building_manor_house
 						country = c:V73
-						levels = 15
+						levels = 20
 						region = STATE_OROMIA
 					}
 				}
@@ -36718,6 +36809,19 @@
 				activate_production_methods = { "pm_no_naval_theory" }
 			}
 			create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W27
+						levels = 5
+						region = STATE_PALESTINE
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
+			}
+			create_building = {
 				building = "building_iron_mine"
 				add_ownership = {
 					building = {
@@ -37066,6 +37170,19 @@
 				reserves = 1
 				activate_production_methods = { }
 			}
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W37
+						levels = 3
+						region = STATE_PARANA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_citrus_orchards" }
+			}
 		}
 		region_state:W49 = {
 			create_building = {
@@ -37207,6 +37324,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_saw_mills" }
+			}
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W34
+						levels = 1
+						region = STATE_PASTAZA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_citrus_orchards" }
 			}
 			create_building = {
 				building = "building_government_administration"
@@ -39199,6 +39329,19 @@
 				activate_production_methods = { "pm_no_organization" }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:AST
+						levels = 4
+						region = STATE_QUEENSLAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					country = {
@@ -39232,6 +39375,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:NSW
+						levels = 5
+						region = STATE_QUEENSLAND
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
 			}
 			create_building = {
 				building = "building_naval_base"
@@ -42543,7 +42699,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 2
+						levels = 10
 						region = STATE_SHIKOKU
 					}
 				}
@@ -44157,6 +44313,19 @@
 				activate_production_methods = { "pm_no_hardwood" "pm_saw_mills" }
 			}
 			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W81
+						levels = 15
+						region = STATE_MALAYA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { }
+			}
+			create_building = {
 				building = "building_dye_plantation"
 				add_ownership = {
 					building = {
@@ -45043,6 +45212,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:W27
+						levels = 5
+						region = STATE_SYRIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
 				building = "building_logging_camp"
@@ -46426,7 +46608,7 @@
 					building = {
 						type = building_manor_house
 						country = c:JAP
-						levels = 3
+						levels = 5
 						region = STATE_TOHOKU
 					}
 				}
@@ -47633,6 +47815,19 @@
 				activate_production_methods = { }
 			}
 			create_building = {
+				building = "building_wheat_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KYR
+						levels = 15
+						region = STATE_TURKMENIA
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_no_secondary" }
+			}
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -48362,6 +48557,19 @@
 				}
 				reserves = 1
 				activate_production_methods = { "pm_no_organization" }
+			}
+			create_building = {
+				building = "building_millet_farm"
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:X07
+						levels = 5
+						region = STATE_UPPER_EGYPT
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_simple_farming" }
 			}
 			create_building = {
 				building = "building_fishing_wharf"
