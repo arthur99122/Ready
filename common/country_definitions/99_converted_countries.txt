@@ -12227,7 +12227,7 @@ YUE = {
 }
 
 YUG = {
-	color = { 37 128 174 }
+	color = { 235 64 52 }
 	country_type = recognized
 	tier = empire
 	cultures = { bosniak croat dynamic-bosnian-culture-num1 serb slovene }
