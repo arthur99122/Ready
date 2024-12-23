@@ -527,6 +527,7 @@ STATE_ILE_DE_FRANCE = {
     capped_resources = {
         bg_logging = 5
         bg_monuments = 1
+        bg_oil_extraction = 200
     }
 }
 
