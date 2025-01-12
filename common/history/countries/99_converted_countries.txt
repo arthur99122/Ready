@@ -10268,7 +10268,7 @@
 		}
         add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
 		name = Genocide_of_the_Germans
-        is_decaying = no # Optional, if yes, it will decay, default is no
+        is_decaying = yes # Optional, if yes, it will decay, default is no
     			months = 600 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
