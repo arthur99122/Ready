@@ -49,6 +49,7 @@
 # uses_vnz_characters
 # uses_per_characters
 
+
 language_accepted = {
 	OR = {
 		AND = {
