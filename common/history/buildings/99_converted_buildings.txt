@@ -3269,6 +3269,17 @@
 				reserves = 1
 				activate_production_methods = { "pm_basic_port" }
 			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 		}
 	}
 	s:STATE_ARMENIA = {
@@ -3465,6 +3476,17 @@
 				}
 				reserves = 1
 				activate_production_methods = { }
+			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
 			}
 		}
 	}
@@ -7190,6 +7212,17 @@
 				reserves = 1
 				activate_production_methods = { "pm_sulfite_pulping" }
 			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 		}
 	}
 	s:STATE_BRITISH_COLUMBIA = {
@@ -10484,6 +10517,17 @@
 				reserves = 1
 				activate_production_methods = { "pm_hardwood" "pm_saw_mills" }
 			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 		}
 	}
 	s:STATE_CHERNIHIV = {
@@ -10504,7 +10548,7 @@
 				add_ownership = {
 					country = {
 						country = c:UKR
-						levels = 5
+						levels = 1
 					}
 				}
 				reserves = 1
@@ -10584,10 +10628,32 @@
 				reserves = 1
 				activate_production_methods = { "pm_vertical_filing_cabinets" }
 			}
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 		}
 	}
 	s:STATE_CHERSON = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -11241,6 +11307,17 @@
 	}
 	s:STATE_CHUVASHIA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -12223,6 +12300,17 @@
 	}
 	s:STATE_CRIMEA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_naval_base"
 				add_ownership = {
@@ -15004,6 +15092,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
@@ -17056,6 +17155,17 @@
 	}
 	s:STATE_GALICH = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -21816,6 +21926,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -23420,6 +23541,17 @@
 	s:STATE_KALMYKIA = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -24033,6 +24165,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
@@ -24058,6 +24201,17 @@
 	}
 	s:STATE_KAZAN = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -24265,6 +24419,17 @@
 	}
 	s:STATE_KHARKOV = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -24582,6 +24747,17 @@
 	}
 	s:STATE_KIEV = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -25137,6 +25313,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_lead_mine"
 				add_ownership = {
 					building = {
@@ -25317,6 +25504,17 @@
 	}
 	s:STATE_KURSK = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -26577,6 +26775,17 @@
 			}
 		}
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -29715,6 +29924,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -30726,6 +30946,17 @@
 	s:STATE_MINSK = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
@@ -30960,6 +31191,17 @@
 	}
 	s:STATE_MOGILEV = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -31676,6 +31918,17 @@
 	}
 	s:STATE_MOSCOW = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -32672,16 +32925,16 @@
 	s:STATE_NENETSIA = {
 		region_state:UKR = {
 			create_building = {
-				building = "building_barracks"
+				building = "building_rye_farm"
 				add_ownership = {
 					country = {
 						country = c:UKR
-						levels = 1
+						levels = 10
 					}
 				}
 				reserves = 1
-				activate_production_methods = { "pm_general_training" }
-			}
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_naval_base"
 				add_ownership = {
@@ -33727,6 +33980,17 @@
 	}
 	s:STATE_NIZHNY_NOVGOROD = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -35375,6 +35639,17 @@
 	s:STATE_NOVGOROD = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -36402,6 +36677,17 @@
 	
 	s:STATE_ORYOL = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -37657,6 +37943,17 @@
 	s:STATE_PERM = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -38738,6 +39035,17 @@
 	}
 	s:STATE_PSKOV = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -40361,6 +40669,17 @@
 	s:STATE_ROSTOV = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -40506,6 +40825,17 @@
 	}
 	s:STATE_RYAZAN = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
@@ -40722,6 +41052,17 @@
 	}
 	s:STATE_SAMARA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_sulfur_mine"
 				add_ownership = {
@@ -43534,6 +43875,17 @@
 	s:STATE_SMOLENSK = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -44494,6 +44846,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_cotton_plantation"
 				add_ownership = {
 					building = {
@@ -44788,6 +45151,17 @@
 	}
 	s:STATE_SURGUT = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -45592,6 +45966,17 @@
 	s:STATE_TAMBOV = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -45695,6 +46080,17 @@
 	}
 	s:STATE_TARTARIA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -45819,6 +46215,17 @@
 	}
 	s:STATE_TAURIDA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -48044,6 +48451,17 @@
 	s:STATE_TVER = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -48242,6 +48660,17 @@
 	}
 	s:STATE_UFA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
@@ -48725,6 +49154,17 @@
 	s:STATE_URAL = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -48873,6 +49313,17 @@
 			}
 		}
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -49898,6 +50349,17 @@
 		}
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
 					country = {
@@ -50106,6 +50568,17 @@
 	s:STATE_VITEBSK = {
 		region_state:UKR = {
 			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
+			create_building = {
 				building = "building_barracks"
 				add_ownership = {
 					country = {
@@ -50185,6 +50658,17 @@
 	}
 	s:STATE_VOLHYNIA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
@@ -50381,6 +50865,17 @@
 	}
 	s:STATE_VYATKA = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}
 			create_building = {
 				building = "building_barracks"
 				add_ownership = {
@@ -53191,6 +53686,17 @@
 	}
 	s:STATE_YAROSLAVL = {
 		region_state:UKR = {
+			create_building = {
+				building = "building_rye_farm"
+				add_ownership = {
+					country = {
+						country = c:UKR
+						levels = 10
+					}
+				}
+				reserves = 1
+				activate_production_methods = { "pm_potatoes" }
+			}			
 			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
