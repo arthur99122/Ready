@@ -4573,7 +4573,7 @@
 			level = 3
 		}
 		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
-			name = Starting_Buff_1 # the modifier you want
+			name = Starting_Buff # the modifier you want
     			is_decaying = no # Optional, if yes, it will decay, default is no
     			months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
