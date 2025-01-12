@@ -68,7 +68,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x037AF5 x03A411 x048AD9 x117021 x11EE65 x13E50E x49337F x4B6538 x4E8563 x51177D x53EF28 x5432BC x584C9B x61F0A0 x63AA19 x6738CF x6B646E x733AB7 x7D8325 x8E6FE7 x98BACD x99FE9A xA4A19F xAD283F xB050DF xB4FE19 xBF1DC0 xC26B82 xCF1974 xDC471F xDCAA17 xE3A5A5 xE77282 xF15B70 xF37EE6 xFB8F08 xFBA109 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:avadhi
 		add_homeland = cu:hindustani
@@ -907,7 +907,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x0279A0 x0BAF8C x109CC0 x113E0B x1161D9 x17D8AB x1D0224 x1EF53E x2B7441 x2E7961 x2FF46D x35754E x3C9B5F x3EFD1E x407060 x4070E0 x43F4B8 x4529BD x45F2DD x4B2EAD x4E09C5 x4F800F x556C63 x56CF62 x5CBA3C x61D696 x626396 x62BEAA x675BCE x6D6D6B x782112 x7D60E7 x7FE584 x8DC922 x8ED831 x951063 x954C12 x968562 x978421 x97C017 x9EED5C xA3655B xA55509 xB0F79E xB2AAA7 xB7B2BD xBAE3D2 xBB836E xC070E0 xC6D9E8 xC6E602 xCD77FD xD4EC50 xD575B0 xD6DD8A xDEE571 xDF30A0 xE712E1 xE87BBF xE92A58 xEC696F xF1414C xF78D0D xF9577D }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:PER
@@ -1059,7 +1059,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x01F1CD x590FA7 x5FCB1C x93C09D x951929 xE3326D xF767B3 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:X19
@@ -1114,7 +1114,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x1131A0 x195332 x2D4B90 x4D118A x5B30D1 x6CC5CE x7629BF xB0D0E0 xEBD7BE xEBE18C xF8B0CF }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:MYS
@@ -2180,7 +2180,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x01C109 x388D2C x4F99DC x60B0DF x665E5B x83DFE3 x84F73C xADDE52 xD10C8F xDA7F32 xE0B0E0 xE5D3E0 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:TIB
@@ -3068,7 +3068,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x31D0E0 x4EB354 x7E0401 xECB4F5 xF01160 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-rajput-culture-num1
 		add_homeland = cu:gujarati
@@ -3283,7 +3283,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x11C815 x1619ED x1C3876 x213060 x218FFE x23C36A x25994F x29576A x4874D9 x4D5FC1 x4DE9D5 x515E66 x605021 x6E233E x73C2C6 x812FBE x833D63 x920B51 xA228F8 xA2C234 xA5D1EB xAF11F0 xAF5B29 xBCD18E xC13072 xC1C87A xC1DA32 xC6179B xC6D4A8 xCE4DAE xDA8130 xE18F72 xE51929 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:bihari
 		add_homeland = cu:nepali
@@ -4314,7 +4314,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x2070E0 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:TIB
@@ -4634,7 +4634,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x0A05FF x0E199B x14EB25 x1E9A75 x2A9BFB x346A50 x4CA2A3 x51E979 x585F79 x6A8538 x70D0E0 x746A39 x82DEEF x87DE7B x897F27 x983C0D xA9E591 xAA246A xB8A7B3 xC0F1B9 xC4F4E4 xC77D13 xCD2556 xDCAFE4 xE3AF55 xE9D03F xEFD0DF xF6BCF1 xFA701B xFBDCC9 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-kannada-culture-num1
 		add_homeland = cu:dynamic-rajput-culture-num1
@@ -6680,7 +6680,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x1DDD4D x454FE3 x5E7221 x7CA0E0 x8BB146 xB8655C }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:PER
@@ -7338,7 +7338,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x02BBA0 x105356 x11152D x1507B8 x16F3F6 x1A04E6 x23DFA9 x268E58 x315160 x3FFB31 x56F6E9 x59EE31 x5AF594 x60B021 x6E9D54 x705060 x73A9E3 x808515 x882A58 x8C4F5A x8FC69D xAE1ED1 xB2850D xC7D26A xCC14D7 xD7517F xDB079F xDD447A xE4B4A2 xF5592F xF90BDE xFBDCF5 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-chihan-culture-num2
 		add_homeland = cu:sindi
@@ -8807,7 +8807,7 @@
 		create_state = {
 			country = c:MUG
 			owned_provinces = { x2FF791 }
-			state_type = unincorporated
+			state_type = incorporated
 		}
 		create_state = {
 			country = c:X19
