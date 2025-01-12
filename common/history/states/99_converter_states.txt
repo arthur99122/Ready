@@ -1694,6 +1694,7 @@
 		add_homeland = cu:bashkir
 		add_homeland = cu:tatar
 		add_claim = c:KYR
+		add_claim = c:UKR
 	}
 	s:STATE_CHERNIHIV = {
 		create_state = {
@@ -5275,6 +5276,7 @@
 		add_homeland = cu:karelian
 		add_homeland = cu:ugrian
 		add_claim = c:SCA
+		add_claim = c:UKR
 	}
 	s:STATE_NEVADA = {
 		create_state = {
