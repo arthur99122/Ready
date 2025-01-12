@@ -712,19 +712,19 @@
 		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_national_guard
-		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_cultural_exclusion
 		activate_law = law_type:law_no_colonial_affairs
 		activate_law = law_type:law_no_migration_controls
 		activate_law = law_type:law_no_police
 		activate_law = law_type:law_no_social_security
 		activate_law = law_type:law_no_workers_rights
-		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_census_voting
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_public_schools
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_slavery_banned
-		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_freedom_of_conscience
 		activate_law = law_type:law_women_own_property
 		set_institution_investment_level = {
 			institution = institution_health_system
@@ -999,6 +999,11 @@
 			name = Starting_Buff # the modifier you want
     		is_decaying = no # Optional, if yes, it will decay, default is no
     		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Member_of_the_coalition # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+				# Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 		set_institution_investment_level = {
 			institution = institution_schools
@@ -3780,6 +3785,11 @@
 			institution = institution_schools
 			level = 3
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Member_of_the_coalition # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+				# Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:Q01 = {
 		effect_native_conscription_3 = yes
@@ -4149,6 +4159,11 @@
 			name = Starting_Buff # the modifier you want
     		is_decaying = no # Optional, if yes, it will decay, default is no
     		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Member_of_the_coalition # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+				# Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:SCO = {
@@ -4556,6 +4571,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff_1 # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+    			months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:SUD = {
@@ -5190,6 +5210,11 @@
     		is_decaying = no # Optional, if yes, it will decay, default is no
     		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Member_of_the_coalition # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+				# Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:USA = {
 		add_technology_researched = academia
@@ -5269,6 +5294,11 @@
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 3
+		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Starting_Buff # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+    			months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:UTE = {
@@ -9649,6 +9679,11 @@
     		is_decaying = no # Optional, if yes, it will decay, default is no
     		months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
+		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+			name = Member_of_the_coalition # the modifier you want
+    			is_decaying = no # Optional, if yes, it will decay, default is no
+				# Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
 	}
 	c:W96 = {
 		add_technology_researched = academia
@@ -10222,7 +10257,7 @@
     			#months = 3 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 		add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
-			name = Starting_Buff # the modifier you want
+			name = Starting_Buff_1 # the modifier you want
     			is_decaying = no # Optional, if yes, it will decay, default is no
     			months = 120 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
@@ -10230,6 +10265,11 @@
 			name = Dirty_fix # the modifier you want
     			is_decaying = no # Optional, if yes, it will decay, default is no
     			months = 60 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
+		}
+        add_modifier = { # Remember it can be in scope, if not, it is in the ROOT scope by default.
+		name = Genocide_of_the_Germans
+        is_decaying = no # Optional, if yes, it will decay, default is no
+    			months = 600 # Optional, if it is not set, the modifier is permanent. Can also use days, weeks, or years instead.
 		}
 	}
 	c:X19 = {
