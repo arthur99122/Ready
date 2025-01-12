@@ -4878,6 +4878,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:french
+		add_homeland = cu:british
 	}
 	s:STATE_MINAS_GERAIS = {
 		create_state = {

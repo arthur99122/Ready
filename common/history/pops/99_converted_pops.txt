@@ -32290,6 +32290,11 @@
 				size = 1149673
 			}
 			create_pop = {
+				culture = british
+				religion = orthodox
+				size = 389162
+			}
+			create_pop = {
 				culture = french
 				religion = orthodox
 				size = 113745
