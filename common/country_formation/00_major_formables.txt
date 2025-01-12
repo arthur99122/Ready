@@ -126,7 +126,7 @@ RHN = {
 SGF = {
 	use_culture_states = yes
 
-	required_states_fraction = 0.75
+	required_states_fraction = 1.25
 	
 	ai_will_do = { always = no }
 }
