@@ -3635,6 +3635,7 @@
 		add_homeland = cu:dynamic-norse-culture-num3
 		add_homeland = cu:dyula
 		add_homeland = cu:senufo
+		add_claim = c:W95
 	}
 	s:STATE_JALISCO = {
 		create_state = {
@@ -8998,6 +8999,7 @@
 		add_homeland = cu:dynamic-norse-culture-num2
 		add_homeland = cu:kru
 		add_homeland = cu:mande
+		add_claim = c:W95
 	}
 	s:STATE_WISCONSIN = {
 		create_state = {
