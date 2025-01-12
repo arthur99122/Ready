@@ -5908,7 +5908,7 @@ MUG = {
 	color = { 33 96 48 }
 	country_type = unrecognized
 	tier = hegemony
-	cultures = { hindustani_proper }
+	cultures = { hindustani }
 	religion = sikh
 	capital = STATE_PUNJAB
 }
