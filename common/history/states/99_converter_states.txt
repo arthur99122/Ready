@@ -92,6 +92,7 @@
 		add_claim = c:KYR
 		add_claim = c:UKR
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_AKTOBE = {
 		create_state = {
@@ -292,6 +293,7 @@
 		}
 		add_homeland = cu:mongol
 		add_claim = c:KYR
+		add_claim = c:W29
 	}
 	s:STATE_ALTO_PARAGUAY = {
 		create_state = {
@@ -318,6 +320,7 @@
 		add_homeland = cu:han
 		add_homeland = cu:mongol
 		add_homeland = cu:tibetan_new
+		add_claim = c:W29
 	}
 	s:STATE_AL_RIF = {
 		create_state = {
@@ -408,6 +411,7 @@
 		add_homeland = cu:amazonian
 		add_homeland = cu:neo-brazil_colony-catalan
 		add_claim = c:PRA
+		add_claim = c:WIN
 	}
 	s:STATE_AMHARA = {
 		create_state = {
@@ -512,6 +516,7 @@
 		add_homeland = cu:muisca
 		add_homeland = cu:neo-colombia_colony-dynamic-norse-culture-num1
 		add_homeland = cu:north_andean
+		add_claim = c:WIN
 	}
 	s:STATE_ANTOFAGASTA = {
 		create_state = {
@@ -548,6 +553,7 @@
 		add_homeland = cu:magnagreek
 		add_homeland = cu:south_italian
 		add_claim = c:V21
+		add_claim = c:BYZ
 	}
 	s:STATE_AQUITAINE = {
 		create_state = {
@@ -652,6 +658,7 @@
 		add_homeland = cu:dynamic-vepsian-culture-num1
 		add_homeland = cu:karelian
 		add_homeland = cu:ukrainian
+		add_claim = c:SCA
 	}
 	s:STATE_ARMENIA = {
 		create_state = {
@@ -814,6 +821,7 @@
 		add_homeland = cu:dynamic-georgian-greek-norse-culture-num2
 		add_homeland = cu:israeli
 		add_homeland = cu:mashriqi
+		add_claim = c:SYR
 	}
 	s:STATE_BAHAMAS = {
 		create_state = {
@@ -829,7 +837,6 @@
 		add_homeland = cu:neo-caribbean_colony-dynamic-fon-norse-culture-num1
 		add_claim = c:BAH
 		add_claim = c:CUB
-		add_claim = c:WIN
 	}
 	s:STATE_BAHIA = {
 		create_state = {
@@ -840,6 +847,7 @@
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_homeland = cu:tupinamba
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_BAJA_CALIFORNIA = {
 		create_state = {
@@ -911,6 +919,7 @@
 		add_homeland = cu:sindi
 		add_claim = c:KYR
 		add_claim = c:MUG
+		add_claim = c:W29
 	}
 	s:STATE_BANAT = {
 		create_state = {
@@ -943,6 +952,7 @@
 		add_homeland = cu:dynamic-al_suryah_arabic-culture-num1
 		add_homeland = cu:israeli
 		add_homeland = cu:mashriqi
+		add_claim = c:SYR
 	}
 	s:STATE_BAS_CONGO = {
 		create_state = {
@@ -988,7 +998,7 @@
 		add_homeland = cu:han
 		add_homeland = cu:manchu
 		add_homeland = cu:mongol
-		add_claim = c:SIA
+		add_claim = c:W29
 	}
 	s:STATE_BEIRA = {
 		create_state = {
@@ -1061,6 +1071,7 @@
 		add_homeland = cu:bihari
 		add_homeland = cu:munda
 		add_homeland = cu:oriya
+		add_homeland = cu:hindustani
 		add_claim = c:X19
 	}
 	s:STATE_BLUE_NILE = {
@@ -1351,6 +1362,7 @@
 		add_homeland = cu:mongol
 		add_homeland = cu:siberian
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_BUSAN = {
 		create_state = {
@@ -1374,6 +1386,7 @@
 		add_homeland = cu:maranon
 		add_homeland = cu:platinean
 		add_homeland = cu:quechua
+		add_claim = c:WIN
 	}
 	s:STATE_CALABRIA = {
 		create_state = {
@@ -1383,6 +1396,7 @@
 		}
 		add_homeland = cu:griko
 		add_homeland = cu:magnagreek
+		add_claim = c:BYZ
 	}
 	s:STATE_CALIFORNIA = {
 		create_state = {
@@ -1452,6 +1466,7 @@
 		}
 		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
 		add_homeland = cu:magnagreek
+		add_claim = c:BYZ
 	}
 	s:STATE_CANARY_ISLANDS = {
 		create_state = {
@@ -1507,6 +1522,7 @@
 		}
 		add_homeland = cu:neo-colombia_colony-dynamic-norse-culture-num1
 		add_homeland = cu:north_andean
+		add_claim = c:WIN
 	}
 	s:STATE_CEARA = {
 		create_state = {
@@ -1517,6 +1533,7 @@
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_homeland = cu:tupinamba
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_CELEBES = {
 		create_state = {
@@ -1905,6 +1922,7 @@
 		add_homeland = cu:dynamic-berber-greek-culture-num1
 		add_homeland = cu:maghrebi
 		add_claim = c:ALD
+		add_claim = c:X07
 	}
 	s:STATE_CORRIENTES = {
 		create_state = {
@@ -1925,6 +1943,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:catalan
+		add_homeland = south_italian
 		add_claim = c:SPA
 	}
 	s:STATE_COSTA_RICA = {
@@ -2175,6 +2194,7 @@
 		}
 		add_homeland = cu:nepali
 		add_homeland = cu:tibetan
+		add_homeland = cu:hindustani
 		add_claim = c:MUG
 		add_claim = c:X19
 	}
@@ -2458,6 +2478,7 @@
 		add_homeland = cu:quechua
 		add_homeland = cu:thai
 		add_claim = c:SIA
+		add_claim = c:WIN
 	}
 	s:STATE_EGYPTIAN_DESERT = {
 		create_state = {
@@ -2506,6 +2527,8 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:north_italian
+		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
+		add_claim = c:X81
 	}
 	s:STATE_EQUATEUR = {
 		create_state = {
@@ -2600,6 +2623,7 @@
 		add_homeland = cu:persian
 		add_homeland = cu:turko_iranian
 		add_claim = c:W26
+		add_claim = c:PER
 	}
 	s:STATE_FERGANA = {
 		create_state = {
@@ -2778,6 +2802,7 @@
 		add_homeland = cu:mongol
 		add_homeland = cu:tibetan
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_GELRE = {
 		create_state = {
@@ -2827,6 +2852,7 @@
 		add_homeland = cu:platinean
 		add_homeland = cu:tupinamba
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_GONDER = {
 		create_state = {
@@ -3238,7 +3264,6 @@
 		}
 		add_homeland = cu:dynamic-normand-culture-num1
 		add_homeland = cu:french
-		add_homeland = cu:icelandic
 		add_homeland = cu:norwegian
 		add_homeland = cu:scottish
 		add_claim = c:IRE
@@ -3251,7 +3276,6 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:hindustani
-		add_homeland = cu:hindustani_proper
 		add_homeland = cu:nepali
 		add_homeland = cu:panjabi
 	}
@@ -3263,7 +3287,7 @@
 		}
 		add_homeland = cu:bihari
 		add_homeland = cu:nepali
-		add_claim = c:PER
+		add_homeland = cu:hindustani
 		add_claim = c:X19
 	}
 	s:STATE_HINGGAN = {
@@ -3553,6 +3577,7 @@
 		add_homeland = cu:siberian
 		add_homeland = cu:yakut
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_ISFAHAN = {
 		create_state = {
@@ -3571,6 +3596,7 @@
 		add_homeland = cu:persian
 		add_homeland = cu:turko_iranian
 		add_claim = c:W26
+		add_claim = c:PER
 	}
 	s:STATE_ISTRIA = {
 		create_state = {
@@ -3834,7 +3860,7 @@
 			owned_provinces = { x00161D x07D342 x150D2C x15F552 x18CED8 x1F1AF7 x217021 x21F020 x24EF26 x2969A3 x2B6E7C x2D5D46 x2DDFDB x2FF385 x37C3E4 x3FDA5A x43B99F x504561 x56684E x5990A7 x5A0252 x6326A6 x6AA44A x72F7C2 x808216 x874936 x963360 x964219 x9666D9 xA09736 xA875F3 xAA60FC xB0FE2D xB4AA65 xB637A4 xC49B8C xCCD333 xCDB7DB xD107A3 xD25436 xD71AAB xEDCC3E xF28F90 xF469BC xF48515 xF8D822 xFD692B }
 			state_type = incorporated
 		}
-		add_homeland = cu:hindustani_proper
+		add_homeland = cu:hindustani
 		add_homeland = cu:tibetan
 	}
 	s:STATE_KASTAMONU = {
@@ -4077,6 +4103,7 @@
 		add_homeland = cu:siberian
 		add_claim = c:KYR
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_KUBAN = {
 		create_state = {
@@ -4153,7 +4180,6 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:british
-		add_homeland = cu:irish
 	}
 	s:STATE_LANGUEDOC = {
 		create_state = {
@@ -4212,6 +4238,8 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
+		add_claim = c:BYZ
+		add_claim = c:X81
 	}
 	s:STATE_LA_PAMPA = {
 		create_state = {
@@ -4320,6 +4348,7 @@
 		}
 		add_homeland = cu:berber
 		add_homeland = cu:dynamic-berber-greek-culture-num1
+		add_claim = c:X07
 	}
 	s:STATE_LIBYAN_DESERT = {
 		create_state = {
@@ -4335,6 +4364,7 @@
 		add_homeland = cu:berber
 		add_homeland = cu:dynamic-berber-greek-culture-num1
 		add_homeland = cu:maghrebi
+		add_claim = c:X07
 	}
 	s:STATE_LIMA = {
 		create_state = {
@@ -4391,6 +4421,8 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:north_italian
+		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
+		add_claim = c:X81
 	}
 	s:STATE_LORRAINE = {
 		create_state = {
@@ -4486,6 +4518,7 @@
 		add_homeland = cu:kurdish
 		add_homeland = cu:luri
 		add_claim = c:W26
+		add_claim = c:PER
 	}
 	s:STATE_LUZON = {
 		create_state = {
@@ -4660,6 +4693,7 @@
 		}
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_MARRAKECH = {
 		create_state = {
@@ -4730,7 +4764,7 @@
 		add_homeland = cu:platinean
 		add_homeland = cu:tupinamba
 		add_claim = c:PRA
-		add_claim = c:W40
+		add_claim = c:W49
 	}
 	s:STATE_MATRUH = {
 		create_state = {
@@ -4782,6 +4816,7 @@
 		add_homeland = cu:dynamic-greek-culture-num2
 		add_homeland = cu:mazanderani
 		add_homeland = cu:tatar
+		add_claim = c:PER
 	}
 	s:STATE_MAZOVIA = {
 		create_state = {
@@ -5239,6 +5274,7 @@
 		add_homeland = cu:dynamic-vepsian-culture-num1
 		add_homeland = cu:karelian
 		add_homeland = cu:ugrian
+		add_claim = c:SCA
 	}
 	s:STATE_NEVADA = {
 		create_state = {
@@ -5406,6 +5442,7 @@
 		add_claim = c:MUG
 		add_claim = c:X19
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_NICARAGUA = {
 		create_state = {
@@ -5484,6 +5521,7 @@
 		add_homeland = cu:tibetan_new
 		add_claim = c:X19
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_NIZHNY_NOVGOROD = {
 		create_state = {
@@ -5559,6 +5597,7 @@
 		add_homeland = cu:manchu
 		add_homeland = cu:mongol
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_NORTHERN_NORWAY = {
 		create_state = {
@@ -6148,6 +6187,7 @@
 		add_homeland = cu:neo-central_america_colony-dynamic-norse-culture-num1
 		add_claim = c:GUA
 		add_claim = c:PNM
+		add_claim = c:WIN
 	}
 	s:STATE_PARA = {
 		create_state = {
@@ -6216,6 +6256,8 @@
 		add_homeland = cu:platinean
 		add_homeland = cu:tupinamba
 		add_claim = c:PRA
+		add_claim = c:WIN
+		add_claim = c:W49
 	}
 	s:STATE_PARAIBA = {
 		create_state = {
@@ -6225,6 +6267,7 @@
 		}
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_PARANA = {
 		create_state = {
@@ -6248,7 +6291,7 @@
 			owned_provinces = { x076502 x15A4E6 x20B0A0 x4C120A x54228F x54D767 x69B8C7 x7436D6 x76933F x783680 x8C9774 x9DA767 xA96256 xAAE0FA xAFD189 xB8051E xB843AB xB943AF xC0234F xE19C79 xE9EA78 xEC3398 xF8FE8B }
 			state_type = incorporated
 		}
-		add_homeland = cu:hindustani_proper
+		add_homeland = cu:hindustani
 		add_homeland = cu:tibetan
 	}
 	s:STATE_PASTAZA = {
@@ -6365,6 +6408,7 @@
 		}
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_PERSIAN_KURDISTAN = {
 		create_state = {
@@ -6384,6 +6428,7 @@
 		}
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_PICARDY = {
 		create_state = {
@@ -6489,7 +6534,7 @@
 			owned_provinces = { x022D2B x051899 x0EC528 x12D43A x19E5C0 x1D3609 x2DBD82 x30122F x3631C3 x36E637 x402C84 x4E722C x50D414 x61F7C9 x67DD93 x6C44CE x706940 x7074E3 x713583 x767A66 x80F0E0 x8F5440 x918140 x91DEAB x94A5A8 x97232F x9AB208 x9B38C0 x9CEEC1 xA0B0A0 xA1CA4A xA6DAD0 xAA60D3 xB4E322 xB94359 xCA516D xCA5BC1 xCD3942 xCD3E9A xCEAF5E xCF602F xD458B6 xD597DC xD921CB xDB08EC xE03121 xE0C4D2 xE2230E xE3CCA0 xEFC3B4 xF58253 xF8614B }
 			state_type = incorporated
 		}
-		add_homeland = cu:hindustani_proper
+		add_homeland = cu:hindustani
 		add_homeland = cu:sindi
 		add_homeland = cu:tibetan
 	}
@@ -6524,6 +6569,7 @@
 		add_claim = c:MUG
 		add_claim = c:X19
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_QUEBEC = {
 		create_state = {
@@ -6655,6 +6701,7 @@
 		add_homeland = cu:dynamic-rajput-culture-num1
 		add_homeland = cu:hindustani_proper
 		add_homeland = cu:rajput
+		add_homeland = cu:hindustani
 	}
 	s:STATE_RHINELAND = {
 		create_state = {
@@ -6755,6 +6802,7 @@
 		}
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		create_state = {
@@ -6795,6 +6843,8 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:north_italian
+		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
+		add_claim = c:X81
 	}
 	s:STATE_ROSTOV = {
 		create_state = {
@@ -6976,6 +7026,7 @@
 		add_homeland = cu:neo-brazil_colony-dynamic-fon-norse-culture-num2
 		add_homeland = cu:platinean
 		add_claim = c:PRA
+		add_claim = c:W49
 	}
 	s:STATE_SARDINIA = {
 		create_state = {
@@ -7219,6 +7270,7 @@
 		add_claim = c:MUG
 		add_claim = c:X19
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_SICILY = {
 		create_state = {
@@ -7290,6 +7342,7 @@
 		}
 		add_homeland = cu:dynamic-chihan-culture-num2
 		add_homeland = cu:sindi
+		add_homeland = cu:hindustani
 	}
 	s:STATE_SISTAN = {
 		create_state = {
@@ -7391,6 +7444,7 @@
 		add_homeland = cu:manchu
 		add_homeland = cu:mongol
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_SOUTHERN_SERBIA = {
 		create_state = {
@@ -7675,6 +7729,7 @@
 		add_claim = c:KYR
 		add_claim = c:UKR
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_SYRIA = {
 		create_state = {
@@ -7684,6 +7739,7 @@
 		}
 		add_homeland = cu:dynamic-greek-culture-num5
 		add_homeland = cu:mashriqi
+		add_claim = c:SYR
 	}
 	s:STATE_TABRIZ = {
 		create_state = {
@@ -7693,6 +7749,7 @@
 		}
 		add_homeland = cu:dynamic-greek-culture-num2
 		add_homeland = cu:mazanderani
+		add_claim = c:PER
 	}
 	s:STATE_TAHITI = {
 		create_state = {
@@ -8045,6 +8102,7 @@
 		}
 		add_homeland = cu:dynamic-greek-culture-num1
 		add_homeland = cu:mashriqi
+		add_claim = c:SYR
 	}
 	s:STATE_TRANSVAAL = {
 		create_state = {
@@ -8095,6 +8153,7 @@
 		add_homeland = cu:dynamic-berber-greek-culture-num1
 		add_homeland = cu:maghrebi
 		add_claim = c:ALD
+		add_claim = c:X07
 	}
 	s:STATE_TUCUMAN = {
 		create_state = {
@@ -8146,6 +8205,7 @@
 		add_claim = c:MUG
 		add_claim = c:PER
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_TUSCANY = {
 		create_state = {
@@ -8154,6 +8214,8 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:north_italian
+		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
+		add_claim = c:X81
 	}
 	s:STATE_TUVA = {
 		create_state = {
@@ -8162,6 +8224,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:tuvan
+		add_claim = c:W29
 	}
 	s:STATE_TVER = {
 		create_state = {
@@ -8247,6 +8310,7 @@
 		add_homeland = cu:mongol
 		add_claim = c:KYR
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_ULSTER = {
 		create_state = {
@@ -8271,6 +8335,7 @@
 		}
 		add_homeland = cu:dynamic-georgian-greek-italian-norse-culture-num1
 		add_homeland = cu:north_italian
+		add_claim = c:X81
 	}
 	s:STATE_UPPER_EGYPT = {
 		create_state = {
@@ -8340,6 +8405,7 @@
 			state_type = incorporated
 		}
 		add_homeland = cu:mongol
+		add_claim = c:W29
 	}
 	s:STATE_URMIA = {
 		create_state = {
@@ -8414,6 +8480,7 @@
 		add_claim = c:KYR
 		add_claim = c:MUG
 		add_claim = c:V67
+		add_claim = c:W29
 	}
 	s:STATE_VALENCIA = {
 		create_state = {
