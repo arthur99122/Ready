@@ -5607,7 +5607,6 @@ zulu_standard_of_living_modifier_negative = {
 }
 French_victory_over_rheinland_coalition = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
-	unit_kill_rate_add = 0.1
 	country_prestige_add = 50
 	state_assimilation_mult = 0.1
 }
@@ -5634,15 +5633,12 @@ Leader_of_the_coalition  = {
 	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_prestige_add = 50
 	country_infamy_decay_mult = 0.1
-	unit_recovery_rate_add = 0.075
 }
 Member_of_the_coalition  = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_prestige_add = 20
-	unit_recovery_rate_add = 0.075
 }
 Genocide_of_the_Germans = {
     icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
 	country_prestige_add = -30
-	country_influence_add = -400
 }
